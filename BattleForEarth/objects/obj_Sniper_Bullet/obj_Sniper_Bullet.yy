@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Bullet_Parent",
+  "%Name":"obj_Sniper_Bullet",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Bullet_Parent",
+  "name":"obj_Sniper_Bullet",
   "overriddenProperties":[],
   "parent":{
     "name":"Bullets",
     "path":"folders/Bullets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Bullet_Parent",
+    "path":"objects/obj_Bullet_Parent/obj_Bullet_Parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -25,11 +29,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"drawColour","filters":[],"listItems":[],"multiselect":false,"name":"drawColour","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF000000","varType":7,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Bullets",
+    "path":"sprites/spr_Bullets/spr_Bullets.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -7,11 +7,7 @@ if gunx != x or guny != y
 	gunx = lerp(gunx,x,0.2)
 	guny = lerp(guny,y,0.2)
 }
-if gunx2 != x or guny2 != y
-{
-	gunx2 = lerp(gunx2,x,0.2)
-	guny2 = lerp(guny2,y,0.2)
-}
+
 
 if range != noone
 {
