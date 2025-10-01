@@ -2,7 +2,7 @@ var nearest = instance_nearest(x,y,obj_Parent_Zombie)
 
 move_towards_point(nearest.x,nearest.y,40)
 
-direction = point_direction(x,y,nearest.x,nearest.y)
+image_angle = point_direction(x,y,nearest.x,nearest.y)
 
 image_speed = 0;
 

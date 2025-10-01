@@ -67,7 +67,7 @@ basicShot = function()
 {
 	var target = point_direction(x + lengthdir_x(16,direction),y + lengthdir_y(16,direction),gunx,guny)
 
-	instance_create_depth(gunx + lengthdir_x(24,gunDir),guny - 12 + lengthdir_y(24,gunDir),-3,obj_Sniper_Bullet,
+	instance_create_depth(gunx + lengthdir_x(24,gunDir),guny - 8 + lengthdir_y(24,gunDir),-3,obj_Sniper_Bullet,
 	{
 		drawColour : #7FC7FF 
 	})
