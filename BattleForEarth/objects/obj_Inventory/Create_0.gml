@@ -1,5 +1,6 @@
 inventory = 
 [
+	CARDS.SHOTGUNNER,
 	CARDS.SCOUT,
 	CARDS.SNIPER,
 ]
@@ -22,12 +23,14 @@ drawSprites =
 [
 	spr_Scout,
 	spr_Sniper,
+	spr_Shot_Gunner
 ]
 
 placeTower =
 [
 	obj_Scout,
-	obj_Sniper
+	obj_Sniper,
+	obj_ShotGunner
 ]
 
 createUnit = function(object)

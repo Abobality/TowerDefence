@@ -1,1 +1,1 @@
-instance_destroy(other)
+other.bulletPersistent --

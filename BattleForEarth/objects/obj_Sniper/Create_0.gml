@@ -76,6 +76,23 @@ basicShot = function()
 	guny = y + lengthdir_y(24,target)
 }
 
+laserShot = function()
+{
+	var target = point_direction(x + lengthdir_x(16,direction),y + lengthdir_y(16,direction),gunx,guny)
+	
+	var bullet = instance_create_depth(gunx + lengthdir_x(24,gunDir),guny - 8 + lengthdir_y(24,gunDir),-3,obj_Sniper_Bullet,
+	{
+		drawColour : #7FC7FF 
+	})
+	
+	bullet.image_xscale = 10
+	
+	gunx = x + lengthdir_x(24,target)
+	guny = y + lengthdir_y(24,target)
+	
+	
+}
+
 
 drawHand1 = function()
 {

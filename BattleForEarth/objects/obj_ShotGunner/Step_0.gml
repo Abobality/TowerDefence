@@ -1,0 +1,31 @@
+var range = collision_circle(x,y,radius,obj_Parent_Zombie,false,true)
+var nearest = instance_nearest(x,y,obj_Parent_Zombie)
+
+
+if gunx != x or guny != y
+{
+	gunx = lerp(gunx,x,0.2)
+	guny = lerp(guny,y,0.2)
+}
+if range != noone
+{
+	direction = point_direction(x,y,nearest.x,nearest.y)
+	
+	if direction > 90 and direction < 270
+	{
+		image_xscale = -1
+		gunDir = direction + 180
+	}else{
+		image_xscale = 1
+		gunDir = direction	
+	}
+	
+	if alarm[0] <= 0
+	{
+		alarm[0] = cooldown
+	}
+}
+
+
+
+

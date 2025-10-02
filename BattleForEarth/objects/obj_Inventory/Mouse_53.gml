@@ -1,4 +1,4 @@
-if placeEnable = true
+if placeEnable = true and mouse_y > 102
 {
 	switch placeSlot 
 	{
@@ -11,7 +11,7 @@ if placeEnable = true
 			break;
 			
 		case 3:
-		
+			createUnit(placeTower[inventory[2]])
 			break;
 
 	}
