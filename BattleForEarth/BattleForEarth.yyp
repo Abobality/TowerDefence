@@ -37,6 +37,8 @@
     {"id":{"name":"obj_Sniper_Bullet","path":"objects/obj_Sniper_Bullet/obj_Sniper_Bullet.yy",},},
     {"id":{"name":"obj_Sniper","path":"objects/obj_Sniper/obj_Sniper.yy",},},
     {"id":{"name":"obj_Turret_Parent","path":"objects/obj_Turret_Parent/obj_Turret_Parent.yy",},},
+    {"id":{"name":"obj_Wave_Manager","path":"objects/obj_Wave_Manager/obj_Wave_Manager.yy",},},
+    {"id":{"name":"obj_Zombie_Boss1","path":"objects/obj_Zombie_Boss1/obj_Zombie_Boss1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_Sprite_Base","path":"scripts/scr_Sprite_Base/scr_Sprite_Base.yy",},},
     {"id":{"name":"spr_Bullets","path":"sprites/spr_Bullets/spr_Bullets.yy",},},

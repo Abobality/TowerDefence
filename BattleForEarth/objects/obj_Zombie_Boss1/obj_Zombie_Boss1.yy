@@ -1,20 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Parent_Zombie",
+  "%Name":"obj_Zombie_Boss1",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Bullet_Parent","path":"objects/obj_Bullet_Parent/obj_Bullet_Parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Parent_Zombie",
+  "name":"obj_Zombie_Boss1",
   "overriddenProperties":[],
   "parent":{
     "name":"Zombie",
     "path":"folders/Zombie.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Parent_Zombie",
+    "path":"objects/obj_Parent_Zombie/obj_Parent_Zombie.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Scout",
-    "path":"sprites/spr_Scout/spr_Scout.yy",
+    "name":"spr_GameCards_Sheet",
+    "path":"sprites/spr_GameCards_Sheet/spr_GameCards_Sheet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

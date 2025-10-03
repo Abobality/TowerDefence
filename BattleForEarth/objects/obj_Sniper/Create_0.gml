@@ -82,10 +82,12 @@ laserShot = function()
 	
 	var bullet = instance_create_depth(gunx + lengthdir_x(24,gunDir),guny - 8 + lengthdir_y(24,gunDir),-3,obj_Sniper_Bullet,
 	{
-		drawColour : #7FC7FF 
+		drawColour : c_aqua 
 	})
 	
 	bullet.image_xscale = 10
+	bullet.damage = 120
+	bullet.bulletPersistent = 100
 	
 	gunx = x + lengthdir_x(24,target)
 	guny = y + lengthdir_y(24,target)

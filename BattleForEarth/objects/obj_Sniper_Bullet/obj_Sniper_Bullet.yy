@@ -7,7 +7,9 @@
   ],
   "managed":true,
   "name":"obj_Sniper_Bullet",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Bullet_Parent","path":"objects/obj_Bullet_Parent/obj_Bullet_Parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_Bullet_Parent/obj_Bullet_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
+  ],
   "parent":{
     "name":"Bullets",
     "path":"folders/Bullets.yy",
