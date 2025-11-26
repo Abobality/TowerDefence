@@ -1,4 +1,6 @@
-// Inherit the parent event
-event_inherited();
+other.bulletPersistent = 0
 
-resistant++
+takeDamage(other.damage)
+resistant+=0.2
+
+global.cash += round(other.damage/resistant)

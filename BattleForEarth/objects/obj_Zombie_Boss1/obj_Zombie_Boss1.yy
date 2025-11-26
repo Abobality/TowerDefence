@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_GameCards_Sheet",
-    "path":"sprites/spr_GameCards_Sheet/spr_GameCards_Sheet.yy",
+    "name":"spr_Zombie",
+    "path":"sprites/spr_Zombie/spr_Zombie.yy",
   },
   "spriteMaskId":null,
   "visible":true,

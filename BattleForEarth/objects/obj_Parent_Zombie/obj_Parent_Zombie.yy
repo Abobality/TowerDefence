@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Scout",
-    "path":"sprites/spr_Scout/spr_Scout.yy",
+    "name":"spr_Zombie",
+    "path":"sprites/spr_Zombie/spr_Zombie.yy",
   },
   "spriteMaskId":null,
   "visible":true,

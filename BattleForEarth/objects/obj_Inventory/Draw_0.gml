@@ -2,7 +2,7 @@ var colour = c_green
 
 for(var i = 0;i < array_length(inventory);i++)
 {
-	if point_in_rectangle(mouse_x,mouse_y,16 + 80 * i,18,80 + 80 * i,104)
+	if point_in_rectangle(mouse_x,mouse_y,32 + 80 * i,18,96 + 80 * i,104)
 	{
 		xscale = 1.1
 	}else
@@ -40,6 +40,6 @@ for(var i = 0;i < array_length(inventory);i++)
 		}
 	}
 	
-	draw_sprite_ext(spr_GameCards_Sheet,inventory[i],48+80 * i,64,xscale,xscale,rotation,c_white,1)
+	draw_sprite_ext(spr_GameCards_Sheet,inventory[i],80+80 * i,64,xscale,xscale,rotation,c_white,1)
 }
 

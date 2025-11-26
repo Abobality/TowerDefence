@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_GameCards_Sheet",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,9 +12,9 @@
   "edgeFiltering":true,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bcc72691-9987-40c2-9445-c291d3689ca9","name":"bcc72691-9987-40c2-9445-c291d3689ca9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8c2fd382-2b86-4487-a4d8-a89628bf3463","name":"8c2fd382-2b86-4487-a4d8-a89628bf3463","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4b5bcd43-674c-4909-b04e-1fd492c730e5","name":"4b5bcd43-674c-4909-b04e-1fd492c730e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bcc72691-9987-40c2-9445-c291d3689ca9","name":"bcc72691-9987-40c2-9445-c291d3689ca9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8c2fd382-2b86-4487-a4d8-a89628bf3463","name":"8c2fd382-2b86-4487-a4d8-a89628bf3463","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4b5bcd43-674c-4909-b04e-1fd492c730e5","name":"4b5bcd43-674c-4909-b04e-1fd492c730e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

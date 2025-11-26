@@ -1,5 +1,3 @@
-
-
 lifetime++
 
 if lifetime >= maxlifetime or bulletPersistent <= 0

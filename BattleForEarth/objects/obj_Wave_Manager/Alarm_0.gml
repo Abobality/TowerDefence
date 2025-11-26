@@ -8,4 +8,9 @@ if currentWave!= 4
 	currentWave++
 }
 
+with(obj_Support_Tower_Parent)
+{
+	obj_Support_Tower_Parent.supportPerWave()
+}
+
 alarm[0] = 600;
