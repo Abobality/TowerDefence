@@ -30,7 +30,7 @@
   ],
   "name":"spr_Zombie",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Zombie",
     "path":"folders/Zombie.yy",
@@ -104,7 +104,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":64,
-    "yorigin":64,
+    "yorigin":96,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

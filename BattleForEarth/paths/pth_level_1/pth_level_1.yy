@@ -1,0 +1,26 @@
+{
+  "$GMPath":"",
+  "%Name":"pth_level_1",
+  "closed":false,
+  "kind":0,
+  "name":"pth_level_1",
+  "parent":{
+    "name":"Level 1",
+    "path":"folders/Levels/Level 1.yy",
+  },
+  "points":[
+    {"speed":10.0,"x":852.0,"y":352.0,},
+    {"speed":10.0,"x":640.0,"y":352.0,},
+    {"speed":10.0,"x":640.0,"y":224.0,},
+    {"speed":10.0,"x":416.0,"y":224.0,},
+    {"speed":10.0,"x":416.0,"y":544.0,},
+    {"speed":10.0,"x":288.0,"y":544.0,},
+    {"speed":10.0,"x":288.0,"y":224.0,},
+    {"speed":10.0,"x":160.0,"y":224.0,},
+    {"speed":10.0,"x":160.0,"y":448.0,},
+    {"speed":10.0,"x":0.0,"y":448.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -10,7 +10,7 @@ lifetime = 0;
 maxlifetime = 10
 bulletPersistent = 10;
 
-
+image_index = -1;
 
 image_angle = direction
 

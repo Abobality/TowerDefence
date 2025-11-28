@@ -10,7 +10,7 @@ lifetime = 0;
 maxlifetime = 120
 bulletPersistent = 1;
 
-
+image_index = -1;
 
 image_speed = 0;
 

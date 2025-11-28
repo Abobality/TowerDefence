@@ -1,7 +1,12 @@
 healthPoints = 100
 
 image_xscale = -1;
-move_towards_point(0,y,0.5)
+depth = -y;
+
+if path_exists(pth_level_1)
+{
+	path_start(pth_level_1,10,path_action_stop,true);
+}
 
 takeDamage = function(damage)
 {

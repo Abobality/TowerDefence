@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Zombie_Boss1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Bullet_Parent","path":"objects/obj_Bullet_Parent/obj_Bullet_Parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_Basic_Zombie",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Zombie_Boss1",
+  "name":"obj_Basic_Zombie",
   "overriddenProperties":[],
   "parent":{
     "name":"Zombie",

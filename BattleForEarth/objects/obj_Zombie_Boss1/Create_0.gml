@@ -4,7 +4,10 @@ resistant = 5
 image_xscale = -2;
 image_yscale = 2;
 
-move_towards_point(0,y,0.5)
+if path_exists(pth_level_1)
+{
+	path_start(pth_level_1,5,path_action_stop,true);
+}
 
 takeDamage = function(damage)
 {
