@@ -1,5 +1,6 @@
 healthPoints = 100
 
+
 image_xscale = -1;
 depth = -y;
 

@@ -1,5 +1,5 @@
 var range = collision_circle(x,y,radius,obj_Parent_Zombie,false,true)
-var nearest = instance_nearest(x,y,obj_Parent_Zombie)
+var nearest = instance_nearest(path_get_point_x(pth_level_1,10),path_get_point_y(pth_level_1,10),obj_Parent_Zombie)
 
 
 if gunx != x or guny != y

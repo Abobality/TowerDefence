@@ -1,6 +1,5 @@
 inventory = 
 [
-	CARDS.SHOTGUNNER,
 	CARDS.SCOUT,
 	CARDS.SNIPER,
 ]

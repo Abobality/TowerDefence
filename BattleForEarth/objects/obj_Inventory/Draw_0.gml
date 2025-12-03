@@ -1,4 +1,6 @@
-var colour = c_green
+var colour = c_green;
+var path = layer_tilemap_get_id("Path");
+var tileIdPath = tilemap_get_at_pixel(path,mouse_x,mouse_y);
 
 for(var i = 0;i < array_length(inventory);i++)
 {
@@ -10,7 +12,7 @@ for(var i = 0;i < array_length(inventory);i++)
 		xscale = 1
 	}
 	
-	if position_meeting(mouse_x div 32 * 32,mouse_y div 32 * 32,obj_Turret_Parent)
+	if position_meeting(mouse_x div 32 * 32,mouse_y div 32 * 32,obj_Turret_Parent) or  tileIdPath = 1 or  tileIdPath = 2
 	{
 		colour = c_red
 		placeEnable = false;
