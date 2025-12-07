@@ -2,8 +2,8 @@
   "$GMSprite":"v2",
   "%Name":"spr_MinigunnerHand",
   "bboxMode":0,
-  "bbox_bottom":91,
-  "bbox_left":20,
+  "bbox_bottom":87,
+  "bbox_left":24,
   "bbox_right":95,
   "bbox_top":54,
   "collisionKind":1,
@@ -15,10 +15,7 @@
     {"$GMSpriteFrame":"v1","%Name":"b417e615-ea5a-478e-8db9-ecdd52dbdda3","name":"b417e615-ea5a-478e-8db9-ecdd52dbdda3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"d5532add-6a60-4bb0-b946-9358886c43c2","name":"d5532add-6a60-4bb0-b946-9358886c43c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"db547756-a864-40df-b5af-6b35ef77549c","name":"db547756-a864-40df-b5af-6b35ef77549c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"e1742b61-9e1f-40a1-8041-9051d705e55d","name":"e1742b61-9e1f-40a1-8041-9051d705e55d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"34af6f6f-343b-465c-9579-e9085cc54cdd","name":"34af6f6f-343b-465c-9579-e9085cc54cdd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"9f625040-0e81-427f-9d51-e73a421b3f68","name":"9f625040-0e81-427f-9d51-e73a421b3f68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"8f85d9dc-0e09-4848-8280-f47abc81571e","name":"8f85d9dc-0e09-4848-8280-f47abc81571e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"b1aeb88a-ce55-43ac-8b05-2481e9756e76","name":"b1aeb88a-ce55-43ac-8b05-2481e9756e76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -56,7 +53,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":8.0,
+    "length":5.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -85,20 +82,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"db547756-a864-40df-b5af-6b35ef77549c","path":"sprites/spr_MinigunnerHand/spr_MinigunnerHand.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8c9aa80a-4bd6-4c21-aae5-fdbd671baeb1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e1742b61-9e1f-40a1-8041-9051d705e55d","path":"sprites/spr_MinigunnerHand/spr_MinigunnerHand.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3bfbcb93-6251-4852-b544-71afc3ece998","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"34af6f6f-343b-465c-9579-e9085cc54cdd","path":"sprites/spr_MinigunnerHand/spr_MinigunnerHand.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"911c2aaa-3229-4dd8-a15c-539bbeb5a969","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9f625040-0e81-427f-9d51-e73a421b3f68","path":"sprites/spr_MinigunnerHand/spr_MinigunnerHand.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"09b9e6d5-e2ac-4d10-8f50-ae78f45600cb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f85d9dc-0e09-4848-8280-f47abc81571e","path":"sprites/spr_MinigunnerHand/spr_MinigunnerHand.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c182298e-0eec-463c-930d-370a99ff9710","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"911c2aaa-3229-4dd8-a15c-539bbeb5a969","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1aeb88a-ce55-43ac-8b05-2481e9756e76","path":"sprites/spr_MinigunnerHand/spr_MinigunnerHand.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f8eb3dd1-ea8d-4560-85f4-9b50b9074508","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"f8eb3dd1-ea8d-4560-85f4-9b50b9074508","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

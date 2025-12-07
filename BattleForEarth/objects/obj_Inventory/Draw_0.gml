@@ -38,6 +38,14 @@ for(var i = 0;i < array_length(inventory);i++)
 			case 3:
 				draw_sprite_ext(drawSprites[inventory[2]],0,mouse_x div 32 * 32,mouse_y div 32 * 32,1,1,0,colour,0.8);
 				break;
+				
+			case 4:
+				draw_sprite_ext(drawSprites[inventory[3]],0,mouse_x div 32 * 32,mouse_y div 32 * 32,1,1,0,colour,0.8);
+				break;
+				
+			case 5:
+				draw_sprite_ext(drawSprites[inventory[4]],0,mouse_x div 32 * 32,mouse_y div 32 * 32,1,1,0,colour,0.8);
+				break;
 
 		}
 	}

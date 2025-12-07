@@ -17,6 +17,14 @@ for(var i = 0;i < array_length(inventory);i++)
 				case 2:
 					placeSlot = 3
 					break;
+					
+				case 3:
+					placeSlot = 4
+					break;
+					
+				case 4:
+					placeSlot = 5
+					break;
 			}
 		}
 	}

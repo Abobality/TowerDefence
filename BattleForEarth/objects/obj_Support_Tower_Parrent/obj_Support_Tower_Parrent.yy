@@ -1,24 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_MiniGunner",
+  "%Name":"obj_Support_Tower_Parrent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_MiniGunner",
+  "name":"obj_Support_Tower_Parrent",
   "overriddenProperties":[],
   "parent":{
     "name":"Towers",
     "path":"folders/Towers.yy",
   },
-  "parentObjectId":{
-    "name":"obj_Turret_Parent",
-    "path":"objects/obj_Turret_Parent/obj_Turret_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -37,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_MinigunnerBody",
-    "path":"sprites/spr_MinigunnerBody/spr_MinigunnerBody.yy",
+    "name":"spr_Miner",
+    "path":"sprites/spr_Miner/spr_Miner.yy",
   },
   "spriteMaskId":null,
   "visible":true,

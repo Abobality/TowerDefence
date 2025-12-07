@@ -1,19 +1,10 @@
-inventory = 
-[
-	CARDS.SCOUT,
-	CARDS.SNIPER,
-]
+inventory = global.Choosed
 
 rotation = 0
 xscale = 1
 placeEnable = true;
 
-enum CARDS
-{
-	SCOUT,
-	SNIPER,
-	SHOTGUNNER
-}
+
 
 
 placeSlot = 0;
@@ -22,14 +13,18 @@ drawSprites =
 [
 	spr_Scout,
 	spr_Sniper,
-	spr_Shot_Gunner
+	spr_Shot_Gunner,
+	spr_Miner,
+	spr_MinigunnerBody
 ]
 
 placeTower =
 [
 	obj_Scout,
 	obj_Sniper,
-	obj_ShotGunner
+	obj_ShotGunner,
+	obj_Support_Tower_Parrent,
+	obj_MiniGunner
 ]
 
 createUnit = function(object)

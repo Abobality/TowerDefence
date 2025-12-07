@@ -1,8 +1,7 @@
 other.bulletPersistent = 0
 
 image_blend = c_red;
-image_speed = 0;
-path_speed = 0;
+
 
 alarm[0] = 5;
 

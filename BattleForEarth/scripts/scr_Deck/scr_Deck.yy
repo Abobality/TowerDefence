@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_Sprite_Base",
+  "%Name":"scr_Deck",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_Sprite_Base",
+  "name":"scr_Deck",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
