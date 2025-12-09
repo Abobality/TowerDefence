@@ -23,7 +23,7 @@ placeTower =
 	obj_Scout,
 	obj_Sniper,
 	obj_ShotGunner,
-	obj_Support_Tower_Parrent,
+	obj_Miner,
 	obj_MiniGunner
 ]
 

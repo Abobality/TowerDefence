@@ -75,8 +75,9 @@ basicShot = function()
 {
 	var target = point_direction(x + lengthdir_x(16,direction),y + lengthdir_y(16,direction),gunx,guny)
 
-	instance_create_depth(gunx + lengthdir_x(16,gunDir),guny - 6 + lengthdir_y(16,gunDir),-3,obj_Pistol_Bullet,
+	instance_create_depth(gunx + lengthdir_x(48,gunDir),guny - 6 + lengthdir_y(48,gunDir),-3,obj_Pistol_Bullet,
 	{
+		damage: 2,
 		drawColour: #FEFE22
 	})
 
@@ -91,15 +92,17 @@ dualShot = function()
 	
 	if secondHand = true
 	{
-		instance_create_depth(gunx+10 + lengthdir_x(16,gunDir),guny - 6 + lengthdir_y(16,gunDir),-3,obj_Pistol_Bullet,
+		instance_create_depth(gunx+10 + lengthdir_x(2,gunDir),guny - 6 + lengthdir_y(2,gunDir),-3,obj_Pistol_Bullet,
 	{
+		damage: 4,
 		drawColour: #FEFE22
 	})
 		gunx = x + lengthdir_x(16,target)
 		guny = y + lengthdir_y(16,target)
 	}else{
-		instance_create_depth(gunx2-10 + lengthdir_x(16,gunDir),guny2 - 6 + lengthdir_y(16,gunDir),-3,obj_Pistol_Bullet,
+		instance_create_depth(gunx2-10 + lengthdir_x(2,gunDir),guny2 - 6 + lengthdir_y(2,gunDir),-3,obj_Pistol_Bullet,
 	{
+		damage: 4,
 		drawColour: #FEFE22
 	})
 		gunx2 = x + lengthdir_x(16,target)

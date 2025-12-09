@@ -1,17 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Support_Tower_Parrent",
+  "%Name":"obj_Miner",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Support_Tower_Parrent",
+  "name":"obj_Miner",
   "overriddenProperties":[],
   "parent":{
     "name":"Towers",
     "path":"folders/Towers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Support_Tower_Parrent",
+    "path":"objects/obj_Support_Tower_Parrent/obj_Support_Tower_Parrent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Miner",
+    "path":"sprites/spr_Miner/spr_Miner.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
