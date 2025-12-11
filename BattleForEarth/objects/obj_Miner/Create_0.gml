@@ -1,8 +1,8 @@
 support_function = function()
 {
-	instance_create_depth(x,y,depth,obj_Pop_Up,
+	instance_create_depth(x,y,depth-1,obj_Pop_Up,
 	{
-		text: 100
+		text: "100$"
 	})
 }
 

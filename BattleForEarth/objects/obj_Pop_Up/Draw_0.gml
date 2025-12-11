@@ -1,2 +1,2 @@
-draw_set_colour(c_green)
+draw_set_colour(#228B22)
 draw_text(x,y,text)
