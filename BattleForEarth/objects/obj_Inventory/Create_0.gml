@@ -29,5 +29,5 @@ placeTower =
 
 createUnit = function(object)
 {
-	instance_create_depth(mouse_x div 32 * 32,mouse_y div 32 * 32,-5,object)
+	instance_create_layer(mouse_x div 32 * 32,mouse_y div 32 * 32,"Instances",object)
 }

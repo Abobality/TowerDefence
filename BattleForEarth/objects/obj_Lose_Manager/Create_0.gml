@@ -1,0 +1,1 @@
+global.BaseHealth = 2;

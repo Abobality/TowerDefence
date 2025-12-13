@@ -8,3 +8,10 @@ for(var j = 0;j < array_length(global.Choose);j++)
 		})
 	}
 }
+
+arrayOfEmptyDeck = [
+	"Create your deck first",
+	"C'mon pall",
+	"Challenger?",
+	"Your deck is empty"
+]

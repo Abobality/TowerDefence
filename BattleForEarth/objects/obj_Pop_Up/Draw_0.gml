@@ -1,2 +1,3 @@
-draw_set_colour(#228B22)
+draw_set_colour(color)
+draw_set_font(font)
 draw_text(x,y,text)
