@@ -32,3 +32,5 @@ global.towerInfo = [
 	},
 	
 ]
+
+global.currentWaveEnemies = [];

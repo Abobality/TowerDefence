@@ -1,5 +1,6 @@
 healthPoints = 100
 
+array_push(global.currentWaveEnemies,id);
 
 image_xscale = -1;
 depth = -y;

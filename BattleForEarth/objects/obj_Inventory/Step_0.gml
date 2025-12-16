@@ -1,6 +1,6 @@
 for(var i = 0;i < array_length(inventory);i++)
 {
-	if point_in_rectangle(mouse_x,mouse_y,32 + 80 * i,18,96 + 80 * i,104) 
+	if point_in_rectangle(mouse_x,mouse_y,x-32,y + i*96-48,x+32,y + i*96 + 48) 
 	{
 		if mouse_check_button_pressed(mb_left)
 		{

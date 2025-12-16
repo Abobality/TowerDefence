@@ -43,6 +43,7 @@
     {"id":{"name":"obj_Choose_Slot","path":"objects/obj_Choose_Slot/obj_Choose_Slot.yy",},},
     {"id":{"name":"obj_Choose_System","path":"objects/obj_Choose_System/obj_Choose_System.yy",},},
     {"id":{"name":"obj_Choosed","path":"objects/obj_Choosed/obj_Choosed.yy",},},
+    {"id":{"name":"obj_Enemy_Counter","path":"objects/obj_Enemy_Counter/obj_Enemy_Counter.yy",},},
     {"id":{"name":"obj_Fast_Zombie","path":"objects/obj_Fast_Zombie/obj_Fast_Zombie.yy",},},
     {"id":{"name":"obj_Interface","path":"objects/obj_Interface/obj_Interface.yy",},},
     {"id":{"name":"obj_Inventory","path":"objects/obj_Inventory/obj_Inventory.yy",},},

@@ -11,3 +11,5 @@ if currentWave!= 4
 {
 	currentWave++
 }
+
+global.enemyOnWave = global.wavePlan[currentWave-1].amount

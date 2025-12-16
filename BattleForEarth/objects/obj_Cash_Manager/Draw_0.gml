@@ -1,1 +1,2 @@
-draw_text(16,16,global.cash)
+draw_set_colour(#228B22)
+draw_text(x,y,$"cash:{global.cash}")

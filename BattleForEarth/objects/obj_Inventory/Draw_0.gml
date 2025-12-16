@@ -4,7 +4,7 @@ var tileIdPath = tilemap_get_at_pixel(path,mouse_x,mouse_y);
 
 for(var i = 0;i < array_length(inventory);i++)
 {
-	if point_in_rectangle(mouse_x,mouse_y,32 + 80 * i,18,96 + 80 * i,104)
+	if point_in_rectangle(mouse_x,mouse_y,x-32,y + i*96-48,x+32,y + i*96 + 48)
 	{
 		xscale = 1.1
 	}else
@@ -50,6 +50,6 @@ for(var i = 0;i < array_length(inventory);i++)
 		}
 	}
 	
-	draw_sprite_ext(spr_GameCards_Sheet,inventory[i],80+80 * i,64,xscale,xscale,rotation,c_white,1)
+	draw_sprite_ext(spr_GameCards_Sheet,inventory[i],x,y+96*i,xscale,xscale,0,c_white,1)
 }
 
