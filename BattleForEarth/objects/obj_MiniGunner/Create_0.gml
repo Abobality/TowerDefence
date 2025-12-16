@@ -1,6 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
+
 gunx = x;
 guny = y;
 gunx2 = x;

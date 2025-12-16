@@ -23,7 +23,7 @@ for(var i = 0;i < array_length(inventory);i++)
 
 	}
 	
-	if mouse_y > 102
+	if mouse_y > 102 and  mouse_x < 816 
 	{
 		switch placeSlot
 		{
@@ -51,5 +51,6 @@ for(var i = 0;i < array_length(inventory);i++)
 	}
 	
 	draw_sprite_ext(spr_GameCards_Sheet,inventory[i],x,y+96*i,xscale,xscale,0,c_white,1)
+	draw_text_transformed(x,y+96*i +34,placeTower[inventory[i]].cost,xscale,xscale,0)
 }
 

@@ -1,1 +1,1 @@
-global.cash = 0
+global.cash = 500

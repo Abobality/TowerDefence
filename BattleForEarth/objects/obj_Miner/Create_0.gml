@@ -1,5 +1,8 @@
+
+
 support_function = function()
 {
+	global.cash += 100;
 	instance_create_depth(x,y,depth-1,obj_Pop_Up,
 	{
 		text: "100$",

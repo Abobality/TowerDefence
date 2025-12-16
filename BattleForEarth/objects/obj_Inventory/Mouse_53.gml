@@ -1,25 +1,25 @@
-if placeEnable = true and mouse_y > 102
+if placeEnable = true and mouse_y > 102 and mouse_x < 816 
 {
 	switch placeSlot 
 	{
 		case 1:
-			createUnit(placeTower[inventory[0]])
+			createUnit(placeTower[inventory[0]].object,placeTower[inventory[0]].cost)
 			break;
 			
 		case 2:
-			createUnit(placeTower[inventory[1]])
+			createUnit(placeTower[inventory[1]].object,placeTower[inventory[1]].cost)
 			break;
 			
 		case 3:
-			createUnit(placeTower[inventory[2]])
+			createUnit(placeTower[inventory[2]].object,placeTower[inventory[2]].cost)
 			break;
 			
 		case 4:
-			createUnit(placeTower[inventory[3]])
+			createUnit(placeTower[inventory[3]].object,placeTower[inventory[3]].cost)
 			break;
 			
 		case 5:
-			createUnit(placeTower[inventory[4]])
+			createUnit(placeTower[inventory[4]].object,placeTower[inventory[4]].cost)
 			break;
 
 	}
