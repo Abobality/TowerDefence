@@ -1,3 +1,5 @@
+maxHealth = 500
+
 healthPoints = 500
 resistant = 5
 

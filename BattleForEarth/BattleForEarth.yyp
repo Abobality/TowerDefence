@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Bullets","folderPath":"folders/Bullets.yy","name":"Bullets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Jokers","folderPath":"folders/Jokers.yy","name":"Jokers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Interface","folderPath":"folders/Interface.yy","name":"Interface","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Levels","folderPath":"folders/Levels.yy","name":"Levels","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level 1","folderPath":"folders/Levels/Level 1.yy","name":"Level 1","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -31,7 +32,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.212",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"BattleForEarth",
   "resources":[
@@ -47,6 +48,8 @@
     {"id":{"name":"obj_Fast_Zombie","path":"objects/obj_Fast_Zombie/obj_Fast_Zombie.yy",},},
     {"id":{"name":"obj_Interface","path":"objects/obj_Interface/obj_Interface.yy",},},
     {"id":{"name":"obj_Inventory","path":"objects/obj_Inventory/obj_Inventory.yy",},},
+    {"id":{"name":"obj_Joker_Parent_1","path":"objects/obj_Joker_Parent_1/obj_Joker_Parent_1.yy",},},
+    {"id":{"name":"obj_Joker_Parent","path":"objects/obj_Joker_Parent/obj_Joker_Parent.yy",},},
     {"id":{"name":"obj_Lose_Manager","path":"objects/obj_Lose_Manager/obj_Lose_Manager.yy",},},
     {"id":{"name":"obj_Miner","path":"objects/obj_Miner/obj_Miner.yy",},},
     {"id":{"name":"obj_MiniGunner","path":"objects/obj_MiniGunner/obj_MiniGunner.yy",},},
@@ -73,6 +76,7 @@
     {"id":{"name":"mp_Level_1","path":"sprites/mp_Level_1/mp_Level_1.yy",},},
     {"id":{"name":"spr_Bullets","path":"sprites/spr_Bullets/spr_Bullets.yy",},},
     {"id":{"name":"spr_GameCards_Sheet","path":"sprites/spr_GameCards_Sheet/spr_GameCards_Sheet.yy",},},
+    {"id":{"name":"spr_Joker_Cards","path":"sprites/spr_Joker_Cards/spr_Joker_Cards.yy",},},
     {"id":{"name":"spr_Miner_Hands","path":"sprites/spr_Miner_Hands/spr_Miner_Hands.yy",},},
     {"id":{"name":"spr_Miner","path":"sprites/spr_Miner/spr_Miner.yy",},},
     {"id":{"name":"spr_MinigunnerBody","path":"sprites/spr_MinigunnerBody/spr_MinigunnerBody.yy",},},

@@ -1,5 +1,7 @@
 healthPoints = 300
 
+maxHealth = 300
+
 array_push(global.currentWaveEnemies,id);
 
 image_xscale = -2;

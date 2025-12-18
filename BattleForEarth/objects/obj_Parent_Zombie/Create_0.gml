@@ -1,3 +1,4 @@
+maxHealth = 100
 healthPoints = 100
 
 array_push(global.currentWaveEnemies,id);

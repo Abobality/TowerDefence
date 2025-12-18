@@ -7,5 +7,3 @@ alarm[0] = 5;
 
 takeDamage(other.damage)
 resistant+=0.2
-
-global.cash += round(other.damage/resistant)

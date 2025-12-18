@@ -1,4 +1,5 @@
 inventory = global.Choosed
+jokerInventory = global.JokerChoosed
 
 rotation = 0
 xscale = 1
@@ -49,6 +50,7 @@ placeTower =
 
 
 
+
 createUnit = function(object,cost)
 {
 	if cost <= global.cash
@@ -63,4 +65,15 @@ createUnit = function(object,cost)
 			font: fnt_Agressive12
 		})
 	}
+}
+
+spawnJoker = function()
+{
+	jokerOrder = 0;
+	alarm[0] = 60
+}
+
+if array_length(jokerInventory) != 0
+{
+	spawnJoker();
 }

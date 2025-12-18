@@ -7,4 +7,3 @@ alarm[0] = 5;
 
 takeDamage(other.damage)
 
-global.cash += round(other.damage)
