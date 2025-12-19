@@ -9,6 +9,8 @@ enum CARDS
 
 enum JOKERS
 {
+	BASIC_JOKER,
+	FROST_JOKER,
 	ELECTRO_JOKER,
 }
 
@@ -21,9 +23,14 @@ global.Choosed = [
 ];
 
 global.JokerChoosed = [
-	JOKERS.ELECTRO_JOKER,
+
+	JOKERS.FROST_JOKER,
+
 ]
 
 global.Jokers = [
-	obj_Joker_Parent
+	obj_Basic_Joker,
+	obj_Frost_Joker,
+	obj_Electro_Joker,
+	
 ]

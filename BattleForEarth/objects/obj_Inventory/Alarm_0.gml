@@ -5,7 +5,7 @@ jokerOrder++
 if jokerOrder >= array_length(jokerInventory)
 {
 	jokerOrder = 0
-	alarm[0] = 120;
+	alarm[0] = 420;
 }else{
-	alarm[0] = 60;
+	alarm[0] = 180;
 }

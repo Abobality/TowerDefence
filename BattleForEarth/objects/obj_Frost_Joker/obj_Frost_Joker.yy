@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Joker_Parent_1",
+  "%Name":"obj_Frost_Joker",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":8,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Joker_Parent_1",
+  "name":"obj_Frost_Joker",
   "overriddenProperties":[],
   "parent":{
     "name":"Jokers",
     "path":"folders/Jokers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Joker_Parent",
+    "path":"objects/obj_Joker_Parent/obj_Joker_Parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Zombie",
+    "path":"sprites/spr_Zombie/spr_Zombie.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
