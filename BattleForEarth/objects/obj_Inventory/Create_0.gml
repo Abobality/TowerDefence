@@ -77,3 +77,16 @@ if array_length(jokerInventory) != 0
 {
 	spawnJoker();
 }
+
+jokerDraw = function()
+{
+	for(var i = 0;i < array_length(jokerInventory);i++)
+	{
+		instance_create_layer(x + 64,y+96*i,"Instances",obj_Joker_Slot,
+		{
+			image_index: jokerInventory[i],
+		})
+	}
+}
+
+jokerDraw();
