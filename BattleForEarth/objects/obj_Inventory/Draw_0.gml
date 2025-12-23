@@ -2,6 +2,10 @@ var colour = c_green;
 var path = layer_tilemap_get_id("Path");
 var tileIdPath = tilemap_get_at_pixel(path,mouse_x,mouse_y);
 
+draw_set_halign(fa_center);
+draw_set_font(fnt_Agressive12);
+draw_set_colour(c_white);
+
 for(var i = 0;i < array_length(inventory);i++)
 {
 	if point_in_rectangle(mouse_x,mouse_y,x-32,y + i*96-48,x+32,y + i*96 + 48)
@@ -54,3 +58,14 @@ for(var i = 0;i < array_length(inventory);i++)
 	draw_text_transformed(x,y+96*i +34,placeTower[inventory[i]].cost,xscale,xscale,0)
 }
 
+for(var i = 0;i < array_length(jokerInventory);i++)
+{
+	if point_in_rectangle(mouse_x,mouse_y,x+32,y + i*96-48,x+80,y + i*96 + 48)
+	{
+		xscale = 1.1
+	}else
+	{
+		xscale = 1
+	}
+	draw_sprite_ext(spr_Joker_Cards,jokerInventory[i],x+64,y+96*i,xscale,xscale,0,c_white,1)
+}

@@ -53,7 +53,6 @@
     {"id":{"name":"obj_Interface","path":"objects/obj_Interface/obj_Interface.yy",},},
     {"id":{"name":"obj_Inventory","path":"objects/obj_Inventory/obj_Inventory.yy",},},
     {"id":{"name":"obj_Joker_Parent","path":"objects/obj_Joker_Parent/obj_Joker_Parent.yy",},},
-    {"id":{"name":"obj_Joker_Slot","path":"objects/obj_Joker_Slot/obj_Joker_Slot.yy",},},
     {"id":{"name":"obj_Lose_Manager","path":"objects/obj_Lose_Manager/obj_Lose_Manager.yy",},},
     {"id":{"name":"obj_Miner","path":"objects/obj_Miner/obj_Miner.yy",},},
     {"id":{"name":"obj_MiniGunner","path":"objects/obj_MiniGunner/obj_MiniGunner.yy",},},
