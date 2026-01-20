@@ -4,47 +4,38 @@ instance_deactivate_object(obj_Wave_Manager)
 instance_deactivate_object(obj_Inventory)
 
 xscale = 1;
+JokerID = 0;
 
 depth = -50
-
 image_speed = 0;
 
 function jokerChanceToDrop()
 {
 	var chance = irandom(100)
-	var number = 0;
+	JokerID = 0;
 	
-	if chance <= global.Jokers
+	if chance >= 20
 	{
-		
+		JokerID = global.basicJokers[irandom(array_length(global.basicJokers)-1)]
+		return(JokerID);
+	}else if chance >= 50
+	{
+		JokerID = global.rareJokers[irandom(array_length(global.rareJokers)-1)]
+		return(JokerID);
+	}else if chance >= 10
+	{
+		JokerID = global.legendaryJokers[irandom(array_length(global.legendaryJokers)-1)]
+		return(JokerID);
 	}
+	
 }
 
 jokerShop = [
-	[],
-	[]
+	[jokerChanceToDrop,jokerChanceToDrop],
+	[jokerChanceToDrop,jokerChanceToDrop]
 ]
 
 
-
-function jokerShopSetJokers()
-{
-	for (var i = 0;i < 2;i++)
-	{
-		for (var j = 0;j < 2;j++)
-		{
-			var joker = 1
-			if array_contains(global.JokerChoosed,joker) and array_contains(jokerShop,joker)
-			{
-				jokerShopSetJokers()
-			}else{
-				array_push(jokerShop[i],joker)
-			}
-		}
-	}
-}
-
-jokerShopSetJokers()
 
 cardShop = [
 	[CARDS.MINER,CARDS.MINIGUNNER],

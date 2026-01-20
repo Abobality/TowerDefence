@@ -26,30 +26,28 @@ global.Choosed = [
 
 global.JokerChoosed = [
 
-	JOKERS.WEAPONED_JOKER,
-	JOKERS.AGNGEL_JOKER
+
 ]
 
 global.Jokers = [
-	
-	{
-		object: obj_Basic_Joker,
-		chance: 70
-	},
-	{
-		object: obj_Frost_Joker,
-		chance: 70
-	},
-	{
-		object: obj_Electro_Joker,
-		chance: 30
-	},
-	{
-		object: obj_Angel_Joker,
-		chance: 10
-	},
-	{
-		object: obj_Weaponed_Joker,
-		chance: 30
-	}
+	obj_Basic_Joker,
+	obj_Frost_Joker,
+	obj_Electro_Joker,
+	obj_Angel_Joker,
+	obj_Weaponed_Joker
+]
+
+
+global.basicJokers = [
+	JOKERS.BASIC_JOKER,
+	JOKERS.ELECTRO_JOKER
+]
+
+global.rareJokers = [
+	JOKERS.ELECTRO_JOKER,
+	JOKERS.WEAPONED_JOKER
+]
+
+global.legendJoker = [
+	JOKERS.AGNGEL_JOKER
 ]
