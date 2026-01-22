@@ -1,10 +1,17 @@
 inventory = global.Choosed
-jokerInventory = global.JokerChoosed
+
+jokerInventoryUpgrade = function()
+{
+	jokerInventory = global.JokerChoosed	
+}
+
+jokerInventoryUpgrade();
 
 rotation = 0
 xscale = 1
 placeEnable = true;
 
+jokerOrder = 0;
 
 arrayOfCash = 
 [

@@ -1,5 +1,5 @@
 zombieSpawned = 0;
 
-currentWave = 14;
+currentWave = 1;
 
 alarm[0] = 600;
