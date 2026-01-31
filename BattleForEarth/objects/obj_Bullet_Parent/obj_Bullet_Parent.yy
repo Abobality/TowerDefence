@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Bullet",
-    "path":"sprites/spr_Bullet/spr_Bullet.yy",
+    "name":"spr_Money_Icon",
+    "path":"sprites/spr_Money_Icon/spr_Money_Icon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

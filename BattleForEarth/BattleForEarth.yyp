@@ -79,7 +79,6 @@
     {"id":{"name":"scr_Joker_Abilities","path":"scripts/scr_Joker_Abilities/scr_Joker_Abilities.yy",},},
     {"id":{"name":"scr_Waves","path":"scripts/scr_Waves/scr_Waves.yy",},},
     {"id":{"name":"mp_Level_1","path":"sprites/mp_Level_1/mp_Level_1.yy",},},
-    {"id":{"name":"spr_Bullet","path":"sprites/spr_Bullet/spr_Bullet.yy",},},
     {"id":{"name":"spr_GameCards_Sheet","path":"sprites/spr_GameCards_Sheet/spr_GameCards_Sheet.yy",},},
     {"id":{"name":"spr_Joker_Cards","path":"sprites/spr_Joker_Cards/spr_Joker_Cards.yy",},},
     {"id":{"name":"spr_Miner_Hands","path":"sprites/spr_Miner_Hands/spr_Miner_Hands.yy",},},

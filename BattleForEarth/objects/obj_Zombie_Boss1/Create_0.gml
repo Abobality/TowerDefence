@@ -2,6 +2,7 @@ maxHealth = 500
 
 healthPoints = 500
 resistant = 5
+damaged = [];
 
 array_push(global.currentWaveEnemies,id);
 

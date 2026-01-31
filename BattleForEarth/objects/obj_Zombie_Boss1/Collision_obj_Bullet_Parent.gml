@@ -1,9 +1,12 @@
 other.bulletPersistent = 0
 
-image_blend = c_red;
+if !array_contains(damaged,other.id)
+{
+	image_blend = c_red;
 
+	takeDamage(other.damage)
+	resistant+=0.2
+	alarm[0] = 5;
+}
 
-alarm[0] = 5;
-
-takeDamage(other.damage)
-resistant+=0.2
+array_push(damaged,other.id)
