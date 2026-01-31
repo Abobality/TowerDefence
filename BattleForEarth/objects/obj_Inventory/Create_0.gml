@@ -34,7 +34,7 @@ drawSprites =
 placeTower =
 [
 	{
-		object: obj_Scout,
+		object: obj_Tower_Parent,
 		cost: 100
 	},
 	{
