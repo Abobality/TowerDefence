@@ -63,6 +63,7 @@
     {"id":{"name":"obj_Parent_Zombie","path":"objects/obj_Parent_Zombie/obj_Parent_Zombie.yy",},},
     {"id":{"name":"obj_Pop_Up","path":"objects/obj_Pop_Up/obj_Pop_Up.yy",},},
     {"id":{"name":"obj_Save_File_Creater","path":"objects/obj_Save_File_Creater/obj_Save_File_Creater.yy",},},
+    {"id":{"name":"obj_Scout","path":"objects/obj_Scout/obj_Scout.yy",},},
     {"id":{"name":"obj_Support_Tower_Parrent","path":"objects/obj_Support_Tower_Parrent/obj_Support_Tower_Parrent.yy",},},
     {"id":{"name":"obj_Tank_Zombie","path":"objects/obj_Tank_Zombie/obj_Tank_Zombie.yy",},},
     {"id":{"name":"obj_Title","path":"objects/obj_Title/obj_Title.yy",},},

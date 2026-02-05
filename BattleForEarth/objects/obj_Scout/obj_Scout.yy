@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Save_File_Creater",
+  "%Name":"obj_Scout",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":112,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Save_File_Creater",
+  "name":"obj_Scout",
   "overriddenProperties":[],
   "parent":{
-    "name":"Systems",
-    "path":"folders/Systems.yy",
+    "name":"Towers",
+    "path":"folders/Towers.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"obj_Tower_Parent",
+    "path":"objects/obj_Tower_Parent/obj_Tower_Parent.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Scout",
+    "path":"sprites/spr_Scout/spr_Scout.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
