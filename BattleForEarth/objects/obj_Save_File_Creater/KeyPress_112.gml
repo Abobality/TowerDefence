@@ -1,6 +1,7 @@
 var save_data = {
 	money: global.Money,
 	info: global.towerInfo,
+	deck: global.Choosed
 }
 
 var _string = json_stringify(save_data);
