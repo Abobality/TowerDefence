@@ -1,5 +1,5 @@
 healthPoints = 300
-
+isVisible = true;
 maxHealth = 300
 
 array_push(global.currentWaveEnemies,id);

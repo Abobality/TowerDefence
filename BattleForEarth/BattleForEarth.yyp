@@ -72,7 +72,6 @@
     {"id":{"name":"obj_Zombie_Boss1","path":"objects/obj_Zombie_Boss1/obj_Zombie_Boss1.yy",},},
     {"id":{"name":"obj_Zombie_Case","path":"objects/obj_Zombie_Case/obj_Zombie_Case.yy",},},
     {"id":{"name":"pth_level_1","path":"paths/pth_level_1/pth_level_1.yy",},},
-    {"id":{"name":"rm_Choose_Level_menu","path":"rooms/rm_Choose_Level_menu/rm_Choose_Level_menu.yy",},},
     {"id":{"name":"rm_Choose_menu","path":"rooms/rm_Choose_menu/rm_Choose_menu.yy",},},
     {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"id":{"name":"rm_Main_Menu","path":"rooms/rm_Main_Menu/rm_Main_Menu.yy",},},
@@ -107,7 +106,6 @@
     {"roomId":{"name":"rm_Main_Menu","path":"rooms/rm_Main_Menu/rm_Main_Menu.yy",},},
     {"roomId":{"name":"rm_Choose_menu","path":"rooms/rm_Choose_menu/rm_Choose_menu.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
-    {"roomId":{"name":"rm_Choose_Level_menu","path":"rooms/rm_Choose_Level_menu/rm_Choose_Level_menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

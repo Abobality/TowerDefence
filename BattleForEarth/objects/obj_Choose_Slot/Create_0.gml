@@ -7,3 +7,7 @@ if global.towerInfo[image_index].brought == false
 	image_blend = c_dkgray;
 }
 
+if array_contains(global.Choosed,image_index)
+{
+	image_blend = c_black;
+}

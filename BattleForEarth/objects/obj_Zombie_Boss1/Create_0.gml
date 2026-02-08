@@ -1,5 +1,5 @@
 maxHealth = 500
-
+isVisible = false;
 healthPoints = 500
 resistant = 5
 damaged = [];

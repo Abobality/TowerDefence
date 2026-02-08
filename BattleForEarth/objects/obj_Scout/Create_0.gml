@@ -5,7 +5,9 @@ barrage = 0;
 upgrade = false;
 cost = 50;
 lvl = 1;
+damage = 25;
 name = "Scout"
+invisDetection = false;
 
 
 arrayOfCash = 
@@ -22,7 +24,7 @@ shot = function()
 	instance_create_layer(x+16,y-32,"Instances",obj_Bullet_Parent,
 	{
 		drawColour: c_yellow,
-		damage: 100
+		damage: damage
 	})
 	alarm[1] = 5;
 }
@@ -34,6 +36,11 @@ lvlUp = function()
 		global.cash -= cost;
 		cost *= 2;
 		lvl++;
+		damage+=25;
+		if lvl = 3 
+		{
+			damage*=2
+		}
 		if lvl < 4
 		{
 			image_index++;
