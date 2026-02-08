@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Zombie",
-    "path":"sprites/spr_Zombie/spr_Zombie.yy",
+    "name":"spr_ZombieBossMove",
+    "path":"sprites/spr_ZombieBossMove/spr_ZombieBossMove.yy",
   },
   "spriteMaskId":null,
   "visible":true,
