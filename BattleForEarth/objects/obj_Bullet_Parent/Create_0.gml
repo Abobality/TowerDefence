@@ -1,4 +1,4 @@
-move_towards_point(room_width,y,5)
+move_towards_point(room_width,y,bulletSpeed)
 
 bulletPersistent = 10;
 

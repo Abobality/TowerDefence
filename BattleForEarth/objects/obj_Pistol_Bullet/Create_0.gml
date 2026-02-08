@@ -1,16 +1,5 @@
-var nearest = instance_nearest(0,y,obj_Parent_Zombie)
-if instance_exists(nearest)
-{
-	move_towards_point(nearest.x,nearest.y,10)
-	image_angle = point_direction(x,y,nearest.x,nearest.y)
-}
+move_towards_point(room_width,y,bulletSpeed)
 
-lifetime = 0;
-maxlifetime = 120
-bulletPersistent = 1;
+bulletPersistent = 10;
 
-image_index = -1;
-
-image_speed = 0;
-
-image_index = 0;
+image_blend = drawColour

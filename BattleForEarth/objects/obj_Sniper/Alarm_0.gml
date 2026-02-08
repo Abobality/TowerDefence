@@ -1,10 +1,9 @@
-var range = collision_circle(x,y,radius,obj_Parent_Zombie,false,true)
+var zone = collision_rectangle(x,y-32,range,y+32,obj_Parent_Zombie,true,true)
+shot();
 
-if towerLevel <= 4 and range != noone
+if zone != noone
 {
-	shotFunction(basicShot)
-}
-if towerLevel = 5 and range != noone
-{
-	shotFunction(laserShot)
+	alarm[0] = cooldown
+}else{
+	exit
 }

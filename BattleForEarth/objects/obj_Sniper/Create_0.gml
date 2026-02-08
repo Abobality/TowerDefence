@@ -1,106 +1,67 @@
-// Inherit the parent event
-event_inherited();
+range = room_width;
+cooldown = 240;
+image_speed = 0;
+barrage = 0;
+cost = 650;
+lvl = 1;
+damage = 100;
+name = "Sniper"
+invisDetection = false;
+upgrade = false;
+draw_index = 0;
 
+arrayOfCash = 
+[
+	"poor",
+	"not enough",
+	"okak"
+]
 
-
-gunx = x;
-guny = y;
-
-
-towerLevel = 1;
-
-cooldown = 120;
-
-radius = 350;
-
-buffs = [];
-
-shotFunction = function(func) 
+shot = function()
 {
-	func();
-}
-drawHandFunction = function(func) 
-{
-	func();
-}
-
-levelUp = function()
-{
-	if towerLevel < 5
+	image_xscale = 1.1;
+	image_yscale = 0.9;
+	instance_create_layer(x+16,y-32,"Instances",obj_Bullet_Parent,
 	{
-		alarm[0] = 0;
-		towerLevel++
-		if image_index != 4
+		drawColour: c_yellow,
+		damage: damage,
+		bulletSpeed: 15
+	})
+	alarm[1] = 5;
+}
+
+lvlUp = function()
+{
+	if global.cash >= cost and lvl != 5
+	{
+		global.cash -= cost;
+		cost *= 2;
+		lvl++;
+		damage+=50;
+		if lvl = 4 
 		{
-			image_index++
+			damage*=2
 		}
-	}
-	
-	switch towerLevel
-	{
-		case 1:
-			cooldown = 120;
-			radius = 350;
-			break;
+		if lvl > 2 
+		{
+			draw_index++
+		}
 			
-		case 2:
-			cooldown = 110;
-			radius = 350;
-			break;
-			
-		case 3:
-			cooldown = 110;
-			radius = 400;
-			break;
-			
-		case 4:
-			cooldown = 90;
-			radius = 400;
-			break;
-			
-		case 5:
-			cooldown = 60;
-			radius = 600;
-			break;
+		image_index++;
+	}else{
+		instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
+		{
+			text: arrayOfCash[irandom_range(0,2)],
+			color: c_orange,
+			font: fnt_Agressive12
+		})
 	}
 }
 
-basicShot = function()
+drawOneHand = function()
 {
-	var target = point_direction(x + lengthdir_x(16,direction),y + lengthdir_y(16,direction),gunx,guny)
-
-	instance_create_depth(gunx + lengthdir_x(24,gunDir),guny - 8 + lengthdir_y(24,gunDir),-3,obj_Sniper_Bullet,
-	{
-		drawColour : #7FC7FF 
-	})
-
-	gunx = x + lengthdir_x(24,target)
-	guny = y + lengthdir_y(24,target)
-}
-
-laserShot = function()
-{
-	var target = point_direction(x + lengthdir_x(16,direction),y + lengthdir_y(16,direction),gunx,guny)
-	
-	var bullet = instance_create_depth(gunx + lengthdir_x(24,gunDir),guny - 8 + lengthdir_y(24,gunDir),-3,obj_Sniper_Bullet,
-	{
-		drawColour : c_aqua 
-	})
-	
-	bullet.image_xscale = 10
-	bullet.damage = 120
-	bullet.bulletPersistent = 100
-	
-	gunx = x + lengthdir_x(24,target)
-	guny = y + lengthdir_y(24,target)
-	
-	
+	draw_sprite_ext(spr_Sniper_Hands,draw_index,x,y,image_xscale,image_yscale,0,c_white,1)
 }
 
 
-drawHand1 = function()
-{
-	draw_sprite_ext(spr_Sniper_Hands,towerLevel-2,gunx+8,guny,image_xscale,image_yscale,gunDir,c_white,1)
-}
-
-
+drawFunction = drawOneHand;
