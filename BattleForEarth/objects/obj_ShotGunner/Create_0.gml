@@ -1,99 +1,73 @@
-// Inherit the parent event
-event_inherited();
-
-
-
-gunx = x;
-guny = y;
-gunx2 = x;
-guny2 = y;
-
-secondHand = false;
-
-towerLevel = 1;
-
+range = room_width;
 cooldown = 120;
+image_speed = 0;
+barrage = 0;
+upgrade = false;
+cost = 50;
+lvl = 1;
+damage = 25;
+name = "Scout"
+invisDetection = false;
 
-radius = 150;
 
-bulletAmount = 4;
+arrayOfCash = 
+[
+	"poor",
+	"not enough",
+	"okak"
+]
 
-buffs = [];
-
-shotFunction = function(func) 
+shot = function()
 {
-	func();
-}
-drawHandFunction = function(func) 
-{
-	func();
-}
-
-levelUp = function()
-{
-	if towerLevel < 5
+	image_xscale = 1.1;
+	image_yscale = 0.9;
+	instance_create_layer(x+16,y-32,"Instances",obj_Pistol_Bullet,
 	{
-		alarm[0] = 0;
-		towerLevel++
-		if image_index != 4
+		drawColour: c_yellow,
+		damage: damage,
+		bulletSpeed: 5
+	})
+	alarm[1] = 5;
+}
+
+lvlUp = function()
+{
+	if global.cash >= cost and lvl != 5
+	{
+		global.cash -= cost;
+		cost *= 2;
+		lvl++;
+		damage+=25;
+		if lvl = 3 
 		{
-			image_index++
+			damage*=2
 		}
-	}
-	
-	switch towerLevel
-	{
-		case 1:
-			cooldown = 120;
-			radius = 150;
-			break;
-			
-		case 2:
-			cooldown = 110;
-			radius = 180;
-			bulletAmount = 5;
-			break;
-			
-		case 3:
-			cooldown = 100;
-			radius = 180;
-			bulletAmount = 7;
-			break;
-			
-		case 4:
-			cooldown = 100;
-			radius = 200;
-			break;
-			
-		case 5:
-			cooldown = 80;
-			radius = 210;
-			bulletAmount = 10;
-			break;
-	}
-}
-
-basicShot = function()
-{
-	var target = point_direction(x + lengthdir_x(16,direction),y + lengthdir_y(16,direction),gunx,guny)
-
-	repeat(4)
-	{
-		instance_create_depth(gunx + lengthdir_x(16,gunDir),guny - 6 + lengthdir_y(16,gunDir),-3,obj_Shotgun_Bullet,
+		if lvl < 4
 		{
-			drawColour: #FEFE22
+			image_index++;
+		}else{
+			drawFunction = drawTwoHand;
+		}
+	}else{
+		instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
+		{
+			text: arrayOfCash[irandom_range(0,2)],
+			color: c_orange,
+			font: fnt_Agressive12
 		})
 	}
-	
-	gunx = x + lengthdir_x(16,target)
-	guny = y + lengthdir_y(16,target)
 }
 
-
-
-drawHand1 = function()
+drawOneHand = function()
 {
-	draw_sprite_ext(spr_Shot_Gunner_Hands,towerLevel-1,gunx,guny,image_xscale,image_yscale,gunDir,c_white,1)
+	draw_sprite_ext(spr_Scout_Hands,lvl-1,x,y,image_xscale,image_yscale,0,c_white,1)
 }
 
+drawTwoHand = function()
+{
+	draw_sprite_ext(spr_Scout_Hands,lvl-1,x-16,y,image_xscale,image_yscale,0,c_white,1)
+	draw_sprite_ext(spr_Scout_Hands,lvl-1,x+8,y,image_xscale,image_yscale,0,c_white,1)
+}
+
+drawFunction = drawOneHand;
 
