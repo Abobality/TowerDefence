@@ -18,3 +18,20 @@ takeDamage = function(damage)
 {
 	healthPoints = round(healthPoints - (damage / resistant));
 }
+
+punch = function()
+{
+	var nearest = instance_nearest(x-64,y,obj_Tower_Parent)
+	path_speed = 0;
+	sprite_index = spr_ZombieBossPunch;
+	
+	if image_index >= 4
+	{
+		if nearest.object_index != obj_Tower_Parent
+		{
+			instance_destroy(nearest)
+		}
+		path_speed = 5;
+		sprite_index = spr_ZombieBossMove;
+	}
+}

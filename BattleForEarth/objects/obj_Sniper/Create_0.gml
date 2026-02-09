@@ -21,7 +21,7 @@ shot = function()
 {
 	image_xscale = 1.1;
 	image_yscale = 0.9;
-	instance_create_layer(x+16,y-32,"Instances",obj_Bullet_Parent,
+	instance_create_layer(x+16,y-32,"Instances",obj_Sniper_Bullet,
 	{
 		drawColour: c_yellow,
 		damage: damage,
@@ -65,3 +65,4 @@ drawOneHand = function()
 
 
 drawFunction = drawOneHand;
+

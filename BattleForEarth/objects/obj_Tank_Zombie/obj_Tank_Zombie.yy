@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Zombie",
-    "path":"sprites/spr_Zombie/spr_Zombie.yy",
+    "name":"spr_zombie_tank",
+    "path":"sprites/spr_zombie_tank/spr_zombie_tank.yy",
   },
   "spriteMaskId":null,
   "visible":true,

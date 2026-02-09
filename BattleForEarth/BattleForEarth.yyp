@@ -60,6 +60,7 @@
     {"id":{"name":"obj_Joker_Parent","path":"objects/obj_Joker_Parent/obj_Joker_Parent.yy",},},
     {"id":{"name":"obj_Lose_Manager","path":"objects/obj_Lose_Manager/obj_Lose_Manager.yy",},},
     {"id":{"name":"obj_Miner","path":"objects/obj_Miner/obj_Miner.yy",},},
+    {"id":{"name":"obj_Minigunner","path":"objects/obj_Minigunner/obj_Minigunner.yy",},},
     {"id":{"name":"obj_Parent_Zombie","path":"objects/obj_Parent_Zombie/obj_Parent_Zombie.yy",},},
     {"id":{"name":"obj_Pistol_Bullet","path":"objects/obj_Pistol_Bullet/obj_Pistol_Bullet.yy",},},
     {"id":{"name":"obj_Pop_Up","path":"objects/obj_Pop_Up/obj_Pop_Up.yy",},},

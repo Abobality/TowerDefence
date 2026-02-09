@@ -1,122 +1,75 @@
-// Inherit the parent event
-event_inherited();
-
-
-gunx = x;
-guny = y;
-gunx2 = x;
-guny2 = y;
-
-secondHand = false;
-
-towerLevel = 1;
-
+range = room_width;
 cooldown = 20;
+image_speed = 0;
+barrage = 0;
+upgrade = false;
+cost = 50;
+lvl = 1;
+damage = 10;
+name = "Scout"
+invisDetection = false;
 
-radius = 150;
 
-buffs = [];
+arrayOfCash = 
+[
+	"poor",
+	"not enough",
+	"okak"
+]
 
-shotFunction = function(func) 
+shot = function()
 {
-	func();
-}
-drawHandFunction = function(func) 
-{
-	func();
-}
-
-levelUp = function()
-{
-	if towerLevel < 5
+	image_xscale = 1.1;
+	image_yscale = 0.9;
+	instance_create_layer(x+16,y-32,"Instances",obj_Pistol_Bullet,
 	{
-		alarm[0] = 0;
-		towerLevel++
-		if image_index < 4
-		{
-			image_index++
-		}
-		if towerLevel >3
-		{
-			shotFunction(basicShot)
-			drawHandFunction(drawHand2)
-		}
-	}
-	
-	switch towerLevel
-	{
-		case 1:
-			cooldown = 6;
-			radius = 300;
-			break;
-			
-		case 2:
-			cooldown = 6;
-			radius = 350;
-			break;
-			
-		case 3:
-			cooldown = 4;
-			radius = 350;
-			break;
-			
-		case 4:
-			cooldown = 3;
-			radius = 400;
-			break;
-			
-		case 5:
-			cooldown = 2;
-			radius = 450;
-			break;
-	}
-}
-
-basicShot = function()
-{
-	var target = point_direction(x + lengthdir_x(16,direction),y + lengthdir_y(16,direction),gunx,guny)
-
-	instance_create_depth(gunx + lengthdir_x(48,gunDir),guny - 6 + lengthdir_y(48,gunDir),-3,obj_Pistol_Bullet,
-	{
-		damage: 2,
-		drawColour: #FEFE22
+		drawColour: c_yellow,
+		damage: damage,
+		bulletSpeed: 6
 	})
-
-	gunx = x + lengthdir_x(16,target)
-	guny = y + lengthdir_y(16,target)
+	alarm[1] = 5;
 }
 
-dualShot = function()
+lvlUp = function()
 {
-	var target = point_direction(x + lengthdir_x(16,direction),y + lengthdir_y(16,direction),gunx,guny)
-	secondHand = !secondHand;
-	
-	if secondHand = true
+	if global.cash >= cost and lvl != 5
 	{
-		instance_create_depth(gunx+10 + lengthdir_x(2,gunDir),guny - 6 + lengthdir_y(2,gunDir),-3,obj_Pistol_Bullet,
-	{
-		damage: 4,
-		drawColour: #FEFE22
-	})
-		gunx = x + lengthdir_x(16,target)
-		guny = y + lengthdir_y(16,target)
+		global.cash -= cost;
+		cost *= 2;
+		lvl++;
+		damage+=10;
+		if lvl = 3 
+		{
+			damage*=2
+		}
+		
+		image_index++;
+		
+		if lvl > 4
+		{
+			cooldown /= 2
+			drawFunction = drawTwoHand;
+		}
 	}else{
-		instance_create_depth(gunx2-10 + lengthdir_x(2,gunDir),guny2 - 6 + lengthdir_y(2,gunDir),-3,obj_Pistol_Bullet,
-	{
-		damage: 4,
-		drawColour: #FEFE22
-	})
-		gunx2 = x + lengthdir_x(16,target)
-		guny2 = y + lengthdir_y(16,target)
+		instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
+		{
+			text: arrayOfCash[irandom_range(0,2)],
+			color: c_orange,
+			font: fnt_Agressive12
+		})
 	}
 }
 
-drawHand1 = function()
+drawOneHand = function()
 {
-	draw_sprite_ext(spr_MinigunnerHand,towerLevel-1,gunx,guny,image_xscale,image_yscale,gunDir,c_white,1)
+	draw_sprite_ext(spr_MinigunnerHand,lvl-1,x,y,image_xscale,image_yscale,0,c_white,1)
 }
-drawHand2 = function()
+
+drawTwoHand = function()
 {
-	draw_sprite_ext(spr_MinigunnerHand,towerLevel-1,gunx+10,guny,image_xscale,image_yscale,gunDir,c_white,1)
-	draw_sprite_ext(spr_MinigunnerHand,towerLevel-1,gunx2-10,guny2,image_xscale,image_yscale,gunDir,c_white,1)
+	draw_sprite_ext(spr_MinigunnerHand,lvl-1,x-16,y,image_xscale,image_yscale,0,c_white,1)
+	draw_sprite_ext(spr_MinigunnerHand,lvl-1,x+8,y,image_xscale,image_yscale,0,c_white,1)
 }
+
+drawFunction = drawOneHand;
+

@@ -62,3 +62,4 @@ drawTwoHand = function()
 }
 
 drawFunction = drawOneHand;
+

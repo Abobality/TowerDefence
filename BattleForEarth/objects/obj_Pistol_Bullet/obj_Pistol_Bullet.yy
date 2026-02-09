@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Money_Icon",
-    "path":"sprites/spr_Money_Icon/spr_Money_Icon.yy",
+    "name":"spr_bullet_pistol",
+    "path":"sprites/spr_bullet_pistol/spr_bullet_pistol.yy",
   },
   "spriteMaskId":null,
   "visible":true,

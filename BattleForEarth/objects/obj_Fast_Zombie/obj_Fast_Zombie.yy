@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Zombie",
-    "path":"sprites/spr_Zombie/spr_Zombie.yy",
+    "name":"spr_zombie_fast",
+    "path":"sprites/spr_zombie_fast/spr_zombie_fast.yy",
   },
   "spriteMaskId":null,
   "visible":true,
