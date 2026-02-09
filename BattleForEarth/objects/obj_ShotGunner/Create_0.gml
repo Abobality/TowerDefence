@@ -5,8 +5,8 @@ barrage = 0;
 upgrade = false;
 cost = 50;
 lvl = 1;
-damage = 25;
-name = "Scout"
+damage = 50;
+name = "Shotgunner"
 invisDetection = false;
 
 
@@ -21,11 +21,10 @@ shot = function()
 {
 	image_xscale = 1.1;
 	image_yscale = 0.9;
-	instance_create_layer(x+16,y-32,"Instances",obj_Pistol_Bullet,
+	instance_create_layer(x+64,y,"Instances",obj_Shot_Gun_Shot,
 	{
 		drawColour: c_yellow,
 		damage: damage,
-		bulletSpeed: 5
 	})
 	alarm[1] = 5;
 }
@@ -37,7 +36,7 @@ lvlUp = function()
 		global.cash -= cost;
 		cost *= 2;
 		lvl++;
-		damage+=25;
+		damage+=50;
 		if lvl = 3 
 		{
 			damage*=2
@@ -45,8 +44,6 @@ lvlUp = function()
 		if lvl < 4
 		{
 			image_index++;
-		}else{
-			drawFunction = drawTwoHand;
 		}
 	}else{
 		instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
@@ -60,14 +57,9 @@ lvlUp = function()
 
 drawOneHand = function()
 {
-	draw_sprite_ext(spr_Scout_Hands,lvl-1,x,y,image_xscale,image_yscale,0,c_white,1)
+	draw_sprite_ext(spr_Shot_Gunner_Hands,lvl-1,x,y,image_xscale,image_yscale,0,c_white,1)
 }
 
-drawTwoHand = function()
-{
-	draw_sprite_ext(spr_Scout_Hands,lvl-1,x-16,y,image_xscale,image_yscale,0,c_white,1)
-	draw_sprite_ext(spr_Scout_Hands,lvl-1,x+8,y,image_xscale,image_yscale,0,c_white,1)
-}
 
 drawFunction = drawOneHand;
 

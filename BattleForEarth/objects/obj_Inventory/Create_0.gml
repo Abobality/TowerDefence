@@ -42,7 +42,7 @@ placeTower =
 		cost: 500
 	},
 	{
-		object: obj_Miner,
+		object: obj_Shotgunner,
 		cost: 350
 	},
 	{

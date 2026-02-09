@@ -6,7 +6,7 @@ upgrade = false;
 cost = 50;
 lvl = 1;
 damage = 10;
-name = "Scout"
+name = "Minigunner"
 invisDetection = false;
 
 

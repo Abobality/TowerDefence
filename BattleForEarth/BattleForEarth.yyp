@@ -66,6 +66,7 @@
     {"id":{"name":"obj_Pop_Up","path":"objects/obj_Pop_Up/obj_Pop_Up.yy",},},
     {"id":{"name":"obj_Save_File_Creater","path":"objects/obj_Save_File_Creater/obj_Save_File_Creater.yy",},},
     {"id":{"name":"obj_Scout","path":"objects/obj_Scout/obj_Scout.yy",},},
+    {"id":{"name":"obj_Shot_Gun_Shot","path":"objects/obj_Shot_Gun_Shot/obj_Shot_Gun_Shot.yy",},},
     {"id":{"name":"obj_Shotgunner","path":"objects/obj_Shotgunner/obj_Shotgunner.yy",},},
     {"id":{"name":"obj_Sniper_Bullet","path":"objects/obj_Sniper_Bullet/obj_Sniper_Bullet.yy",},},
     {"id":{"name":"obj_Sniper","path":"objects/obj_Sniper/obj_Sniper.yy",},},
