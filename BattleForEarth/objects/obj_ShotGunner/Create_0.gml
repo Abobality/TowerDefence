@@ -21,7 +21,7 @@ shot = function()
 {
 	image_xscale = 1.1;
 	image_yscale = 0.9;
-	instance_create_layer(x+64,y,"Instances",obj_Shot_Gun_Shot,
+	instance_create_layer(x+80,y-8,"Instances",obj_Shot_Gun_Shot,
 	{
 		drawColour: c_yellow,
 		damage: damage,
