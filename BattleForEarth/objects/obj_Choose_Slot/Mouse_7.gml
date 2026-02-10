@@ -11,6 +11,7 @@ if global.towerInfo[image_index].brought == false and global.towerInfo[image_ind
 	global.Money -= global.towerInfo[image_index].cost;
 	global.towerInfo[image_index].brought = true;
 	image_blend = c_white;
+	saveData();
 	instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
 		{
 			text: "brought",

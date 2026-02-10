@@ -32,23 +32,26 @@ shot = function()
 
 lvlUp = function()
 {
-	if global.cash >= cost and lvl != 5
+	if global.cash >= cost 
 	{
-		global.cash -= cost;
-		cost *= 2;
-		lvl++;
-		damage+=25;
-		if lvl = 3 
+		if lvl != 5
 		{
-			damage*=2
+			global.cash -= cost;
+			cost *= 2;
+			lvl++;
+			damage+=25;
+			if lvl = 3 
+			{
+				damage*=2
+			}
+			if lvl < 4
+			{
+				image_index++;
+			}else{
+				drawFunction = drawTwoHand;
+			}
 		}
-		if lvl < 4
-		{
-			image_index++;
-		}else{
-			drawFunction = drawTwoHand;
-		}
-	}else{
+	}else{ 
 		instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
 		{
 			text: arrayOfCash[irandom_range(0,2)],

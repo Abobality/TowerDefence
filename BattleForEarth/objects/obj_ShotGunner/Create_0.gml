@@ -31,18 +31,18 @@ shot = function()
 
 lvlUp = function()
 {
-	if global.cash >= cost and lvl != 5
+	if global.cash >= cost 
 	{
-		global.cash -= cost;
-		cost *= 2;
-		lvl++;
-		damage+=50;
-		if lvl = 3 
+		if lvl != 5
 		{
-			damage*=2
-		}
-		if lvl < 4
-		{
+			global.cash -= cost;
+			cost *= 2;
+			lvl++;
+			damage+=50;
+			if lvl = 3 
+			{
+				damage*=2
+			}
 			image_index++;
 		}
 	}else{

@@ -24,6 +24,7 @@ lvlUp = function()
 {
 	if current_level != 5
 	{
+		income*=2;
 		current_level++;
 		if current_level > 2
 		{

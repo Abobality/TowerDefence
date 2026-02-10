@@ -82,6 +82,7 @@
     {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"id":{"name":"rm_Main_Menu","path":"rooms/rm_Main_Menu/rm_Main_Menu.yy",},},
     {"id":{"name":"scr_Deck","path":"scripts/scr_Deck/scr_Deck.yy",},},
+    {"id":{"name":"scr_Global_Functions","path":"scripts/scr_Global_Functions/scr_Global_Functions.yy",},},
     {"id":{"name":"scr_Global_Variables","path":"scripts/scr_Global_Variables/scr_Global_Variables.yy",},},
     {"id":{"name":"scr_Joker_Abilities","path":"scripts/scr_Joker_Abilities/scr_Joker_Abilities.yy",},},
     {"id":{"name":"scr_Waves","path":"scripts/scr_Waves/scr_Waves.yy",},},
