@@ -46,3 +46,9 @@ global.towerInfo = [
 global.currentWaveEnemies = [];
 
 global.Money = 500;
+
+global.easyWaves1 = [obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie]
+global.easyWaves2 = [obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie]
+global.easyWavesHybrid = [obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Basic_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie,obj_Fast_Zombie]
+
+global.easyWaves = [global.easyWaves1,global.easyWaves2,global.easyWavesHybrid]

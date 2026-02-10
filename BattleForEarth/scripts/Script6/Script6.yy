@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_Waves",
+  "%Name":"Script6",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_Waves",
+  "name":"Script6",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
