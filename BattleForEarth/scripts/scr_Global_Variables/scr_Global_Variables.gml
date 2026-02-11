@@ -47,10 +47,14 @@ global.currentWaveEnemies = [];
 
 global.Money = 500;
 
-global.easyWaves1 = array_create(10,obj_Basic_Zombie)
-global.easyWaves2 = array_create(15,obj_Fast_Zombie)
-global.easyWavesHybrid = array_create(10,obj_Basic_Zombie) repeat 15{array_push(global.easyWavesHybrid,obj_Fast_Zombie)}
+global.easyWaves1S = array_create(10,obj_Basic_Zombie)
+global.easyWaves2S = array_create(15,obj_Fast_Zombie)
+global.easyWavesHybridS = array_create(10,obj_Basic_Zombie) repeat 15{array_push(global.easyWavesHybrid,obj_Fast_Zombie)}
+global.easyWaves1M = array_create(30,obj_Basic_Zombie)
+global.easyWaves2M = array_create(30,obj_Fast_Zombie)
+global.easyWavesHybridM = array_create(15,obj_Basic_Zombie) repeat 30{array_push(global.easyWavesHybrid,obj_Fast_Zombie)}
 
-global.easyWaves = [global.easyWaves1,global.easyWaves2,global.easyWavesHybrid]
+global.easyWavesS = [global.easyWaves1S,global.easyWaves2S,global.easyWavesHybridS]
+global.easyWavesM = [global.easyWaves1M,global.easyWaves2M,global.easyWavesHybridM]
 
 global.waves = [];
