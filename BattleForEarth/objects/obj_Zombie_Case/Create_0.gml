@@ -7,9 +7,9 @@ array_push(global.currentWaveEnemies,id);
 image_xscale = -2;
 image_yscale = 2;
 
-if path_exists(pth_level_1)
+if path_exists(global.path)
 {
-	path_start(pth_level_1,8,path_action_stop,true);
+	path_start(global.path,8,path_action_stop,true);
 }
 
 takeDamage = function(damage)

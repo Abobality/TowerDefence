@@ -1,4 +1,4 @@
-waves = global.Waves
+waves = global.waves;
 
 wave = 1;
 zombieNumber = 0;
