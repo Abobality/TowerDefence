@@ -10,8 +10,8 @@
     {"name":"inst_339B3455","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_197B372","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_4B76DDA2","path":"rooms/rm_level_1/rm_level_1.yy",},
-    {"name":"inst_37DDA73C","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_65EF012B","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_5A744B11","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,7 +23,7 @@
         {"$GMRInstance":"v4","%Name":"inst_339B3455","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_339B3455","objectId":{"name":"obj_Cash_Manager","path":"objects/obj_Cash_Manager/obj_Cash_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_197B372","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_197B372","objectId":{"name":"obj_Enemy_Counter","path":"objects/obj_Enemy_Counter/obj_Enemy_Counter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":688.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_4B76DDA2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B76DDA2","objectId":{"name":"obj_Inventory","path":"objects/obj_Inventory/obj_Inventory.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":144.0,},
-        {"$GMRInstance":"v4","%Name":"inst_37DDA73C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37DDA73C","objectId":{"name":"obj_Zombie_Boss1","path":"objects/obj_Zombie_Boss1/obj_Zombie_Boss1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":352.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5A744B11","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A744B11","objectId":{"name":"obj_Spawn_Wave_Manager","path":"objects/obj_Spawn_Wave_Manager/obj_Spawn_Wave_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Map","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_1123AC21","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1123AC21","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"mp_Level_1","path":"sprites/mp_Level_1/mp_Level_1.yy",},"x":0.0,"y":96.0,},

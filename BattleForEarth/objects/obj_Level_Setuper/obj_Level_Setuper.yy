@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Wave_Manager",
+  "%Name":"obj_Level_Setuper",
   "eventList":[],
   "managed":true,
-  "name":"obj_Wave_Manager",
+  "name":"obj_Level_Setuper",
   "overriddenProperties":[],
   "parent":{
     "name":"Systems",

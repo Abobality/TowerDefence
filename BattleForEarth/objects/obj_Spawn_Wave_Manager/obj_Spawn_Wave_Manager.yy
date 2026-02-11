@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Tank_Zombie",
+  "%Name":"obj_Spawn_Wave_Manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Tank_Zombie",
+  "name":"obj_Spawn_Wave_Manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Zombie",
-    "path":"folders/Zombie.yy",
+    "name":"Systems",
+    "path":"folders/Systems.yy",
   },
-  "parentObjectId":{
-    "name":"obj_Parent_Zombie",
-    "path":"objects/obj_Parent_Zombie/obj_Parent_Zombie.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_zombie_tank",
-    "path":"sprites/spr_zombie_tank/spr_zombie_tank.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

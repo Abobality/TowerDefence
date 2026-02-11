@@ -1,6 +1,6 @@
 if !array_contains(damaged,other.id)
 {
-	other.bulletPersistent --
+	other.bulletPersistent -=2
 	image_blend = c_red;
 	image_speed = 0;
 	path_speed = 0;
