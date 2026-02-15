@@ -30,11 +30,26 @@ global.JokerChoosed = [
 ]
 
 global.Jokers = [
-	obj_Basic_Joker,
-	obj_Frost_Joker,
-	obj_Electro_Joker,
-	obj_Angel_Joker,
-	obj_Weaponed_Joker
+	{
+		object: obj_Basic_Joker,
+		cost: 100
+	},
+	{
+		object: obj_Frost_Joker,
+		cost: 100
+	},
+	{
+		object: obj_Electro_Joker,
+		cost: 100
+	},
+	{
+		object: obj_Angel_Joker,
+		cost: 100
+	},
+	{
+		object: obj_Weaponed_Joker,
+		cost: 100
+	}
 ]
 
 

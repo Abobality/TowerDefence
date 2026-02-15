@@ -1,4 +1,4 @@
-instance_create_layer(path_get_point_x(pth_level_1,10),path_get_point_y(pth_level_1,10),"Instances",global.Jokers[jokerInventory[jokerOrder]])
+instance_create_layer(path_get_point_x(pth_level_1,10),path_get_point_y(pth_level_1,10),"Instances",global.Jokers[jokerInventory[jokerOrder]].object)
 
 jokerOrder++
 

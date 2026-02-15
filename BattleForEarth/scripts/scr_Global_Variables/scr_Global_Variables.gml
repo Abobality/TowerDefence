@@ -58,3 +58,5 @@ global.easyWavesS = [global.easyWaves1S,global.easyWaves2S,global.easyWavesHybri
 global.easyWavesM = [global.easyWaves1M,global.easyWaves2M,global.easyWavesHybridM]
 
 global.waves = [];
+
+global.shop = false;
