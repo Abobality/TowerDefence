@@ -57,6 +57,7 @@
     {"id":{"name":"obj_Global_Cash","path":"objects/obj_Global_Cash/obj_Global_Cash.yy",},},
     {"id":{"name":"obj_Interface","path":"objects/obj_Interface/obj_Interface.yy",},},
     {"id":{"name":"obj_Inventory","path":"objects/obj_Inventory/obj_Inventory.yy",},},
+    {"id":{"name":"obj_Invisible_Zombie","path":"objects/obj_Invisible_Zombie/obj_Invisible_Zombie.yy",},},
     {"id":{"name":"obj_Joker_Parent","path":"objects/obj_Joker_Parent/obj_Joker_Parent.yy",},},
     {"id":{"name":"obj_Level_Setuper","path":"objects/obj_Level_Setuper/obj_Level_Setuper.yy",},},
     {"id":{"name":"obj_Lose_Manager","path":"objects/obj_Lose_Manager/obj_Lose_Manager.yy",},},
