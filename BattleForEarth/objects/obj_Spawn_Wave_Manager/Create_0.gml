@@ -13,6 +13,7 @@ createZombie = function()
 {
 	instance_create_layer(path_get_x(pth_level_1,0),path_get_y(pth_level_1,0),"Instances",waves[wave][zombieNumber])
 	
+	
 	if zombieNumber < array_length(waves[wave])-1
 	{
 		zombieNumber++
@@ -22,6 +23,7 @@ createZombie = function()
 		zombieNumber = 0;
 		waiting();
 	}
+	
 }
 
 alarm[0] = 300;
