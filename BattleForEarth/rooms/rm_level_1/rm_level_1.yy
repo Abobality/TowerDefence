@@ -7,12 +7,12 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_2C288EAA","path":"rooms/rm_level_1/rm_level_1.yy",},
-    {"name":"inst_339B3455","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_197B372","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_4B76DDA2","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_65EF012B","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_5A744B11","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_47C14A4F","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_339B3455","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,9 +22,9 @@
         {"$GMRInstance":"v4","%Name":"inst_47C14A4F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47C14A4F","objectId":{"name":"obj_Level_Setuper","path":"objects/obj_Level_Setuper/obj_Level_Setuper.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Level_Setuper","path":"objects/obj_Level_Setuper/obj_Level_Setuper.yy",},"propertyId":{"name":"path","path":"objects/obj_Level_Setuper/obj_Level_Setuper.yy",},"resource":{"name":"pth_level_1","path":"paths/pth_level_1/pth_level_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"pth_level_1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":-16.0,},
+        {"$GMRInstance":"v4","%Name":"inst_339B3455","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_339B3455","objectId":{"name":"obj_Cash_Manager","path":"objects/obj_Cash_Manager/obj_Cash_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":32.0,},
       ],"layers":[],"name":"UI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_339B3455","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_339B3455","objectId":{"name":"obj_Cash_Manager","path":"objects/obj_Cash_Manager/obj_Cash_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_197B372","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_197B372","objectId":{"name":"obj_Enemy_Counter","path":"objects/obj_Enemy_Counter/obj_Enemy_Counter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":720.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_4B76DDA2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B76DDA2","objectId":{"name":"obj_Inventory","path":"objects/obj_Inventory/obj_Inventory.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":144.0,},
         {"$GMRInstance":"v4","%Name":"inst_5A744B11","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A744B11","objectId":{"name":"obj_Spawn_Wave_Manager","path":"objects/obj_Spawn_Wave_Manager/obj_Spawn_Wave_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":32.0,},
