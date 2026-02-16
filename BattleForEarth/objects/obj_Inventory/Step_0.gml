@@ -29,3 +29,12 @@ for(var i = 0;i < array_length(inventory);i++)
 		}
 	}
 }
+
+for(var i = 0;i < array_length(jokerInventory);i++)
+{
+	if mouse_check_button_pressed(mb_right) and global.shop = true 
+	{
+		global.cash += global.Jokers[jokerInventory[i]].cost
+		array_delete(jokerInventory,i,1)
+	}
+}

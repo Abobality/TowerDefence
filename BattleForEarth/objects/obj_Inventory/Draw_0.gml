@@ -64,17 +64,9 @@ for(var i = 0;i < array_length(jokerInventory);i++)
 	if point_in_rectangle(mouse_x,mouse_y,x+32,y + i*96-48,x+80,y + i*96 + 48)
 	{
 		xscale = 1.1
-		if mouse_check_button_pressed(mb_right) and global.shop = true 
-		{
-			array_delete(jokerInventory,i,1)
-			global.cash += global.Jokers[jokerInventory[i]].cost
-		}
 	}else
 	{
 		xscale = 1
 	}
-	if array_length(jokerInventory) > 0
-	{
 		draw_sprite_ext(spr_Joker_Cards,jokerInventory[i],x+64,y+96*i,xscale,xscale,0,c_white,1)
-	}
 }
