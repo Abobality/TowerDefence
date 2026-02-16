@@ -26,7 +26,6 @@ global.Choosed = [
 
 global.JokerChoosed = [
 	JOKERS.BASIC_JOKER,
-	JOKERS.ELECTRO_JOKER
 ]
 
 global.Jokers = [
@@ -50,19 +49,4 @@ global.Jokers = [
 		object: obj_Weaponed_Joker,
 		cost: 100
 	}
-]
-
-
-global.basicJokers = [
-	JOKERS.BASIC_JOKER,
-	JOKERS.ELECTRO_JOKER
-]
-
-global.rareJokers = [
-	JOKERS.ELECTRO_JOKER,
-	JOKERS.WEAPONED_JOKER
-]
-
-global.legendJoker = [
-	JOKERS.AGNGEL_JOKER
 ]

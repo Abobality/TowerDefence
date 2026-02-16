@@ -1,3 +1,5 @@
+randomise()
+
 repeat 5
 {
 	array_push(global.waves,global.easyWavesS[irandom_range(0,2)]);

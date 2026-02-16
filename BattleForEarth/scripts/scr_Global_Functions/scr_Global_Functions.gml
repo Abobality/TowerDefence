@@ -18,3 +18,16 @@ function saveData(){
 		show_debug_message($"{_file} doesnt exists")
 	}
 }
+
+
+function roll()
+{
+	var number = irandom(array_length(global.Jokers)-1)
+	
+	if array_contains(global.JokerChoosed,number)
+	{
+		return roll();
+	}else{
+		return number;
+	}
+}

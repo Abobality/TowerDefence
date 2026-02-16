@@ -3,3 +3,4 @@ image_xscale = 4;
 image_yscale = image_xscale
 global.shop = true
 
+shop = [roll(),roll(),roll()]
