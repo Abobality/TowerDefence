@@ -1,4 +1,4 @@
-if isWaiting == true and wave <= array_length(waves) and wave != 9
+if isWaiting == true and wave <= array_length(waves) 
 {
 	alarm[0] = 60;
 	isWaiting = false

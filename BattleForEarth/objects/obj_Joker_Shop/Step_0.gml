@@ -5,6 +5,8 @@ for (var i = 0;i < array_length(shop);i++)
 		if global.Jokers[shop[i]].cost <= global.cash
 		{
 			array_push(global.JokerChoosed,shop[i])
+			global.cash -= global.Jokers[shop[i]].cost
+			array_delete(shop,i,1)
 		}else{
 			instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
 			{

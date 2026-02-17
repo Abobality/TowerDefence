@@ -11,7 +11,7 @@ for (var i = 0;i < array_length(shop);i++)
 	if point_in_rectangle(mouse_x,mouse_y,240 + 184*i,424,240 + 96 + 184*i,568)
 	{
 		scale = 1.6
-		draw_text(288 + 184*i,596,global.Jokers[shop[i]].cost)
+		draw_text(288 + 184*i,580,global.Jokers[shop[i]].cost)
 	}else{
 		scale = 1.5
 	}
