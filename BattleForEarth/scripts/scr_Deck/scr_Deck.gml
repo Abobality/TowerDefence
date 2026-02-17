@@ -35,7 +35,7 @@ global.Jokers = [
 	},
 	{
 		object: obj_Frost_Joker,
-		cost: 100
+		cost: 1000000
 	},
 	{
 		object: obj_Electro_Joker,
