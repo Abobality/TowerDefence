@@ -1,6 +1,6 @@
 randomise()
 
-global.Multiple = 1;
+wavesSetUp(1);
 
 repeat 10
 {
