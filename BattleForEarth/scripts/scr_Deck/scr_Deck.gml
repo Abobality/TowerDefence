@@ -25,11 +25,6 @@ global.Choosed = [
 ];
 
 global.JokerChoosed = [
-	JOKERS.BASIC_JOKER,
-	JOKERS.BASIC_JOKER,
-	JOKERS.BASIC_JOKER,
-	JOKERS.BASIC_JOKER,
-	JOKERS.BASIC_JOKER
 ]
 
 global.Jokers = [

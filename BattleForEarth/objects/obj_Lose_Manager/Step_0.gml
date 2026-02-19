@@ -1,9 +1,9 @@
 if global.BaseHealth <= 0
 {
-	global.Money += obj_Spawn_Wave_Manager.wave / 10 * 100
+	global.Money += floor(obj_Spawn_Wave_Manager.wave * 10)
 	saveData()
 	instance_destroy(obj_Parent_Zombie);
-	instance_destroy(obj_Turret_Parent);
+	instance_destroy(obj_Tower_Parent);
 	instance_destroy(obj_Support_Tower_Parrent);
 	instance_create_layer(room_width/2,room_height/2,"UI",obj_Title,
 	{

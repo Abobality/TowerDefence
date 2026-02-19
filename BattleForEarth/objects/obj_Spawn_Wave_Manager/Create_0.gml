@@ -1,6 +1,6 @@
 waves = global.waves;
 
-wave = 32;
+wave = 1;
 zombieNumber = 0;
 isWaiting = false;
 
@@ -13,9 +13,9 @@ createZombie = function()
 {
 	if wave < array_length(waves)
 	{
-		if zombieNumber < array_length(waves[wave])
+		if zombieNumber < array_length(waves[wave])-1
 		{
-			instance_create_layer(path_get_x(pth_level_1,0),path_get_y(pth_level_1,0),"Instances",waves[wave-1][zombieNumber])
+			instance_create_layer(path_get_x(pth_level_1,0),path_get_y(pth_level_1,0),"Instances",waves[wave][zombieNumber])
 			zombieNumber++
 			alarm[0] = 20;
 		}else{
