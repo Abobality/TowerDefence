@@ -1,1 +1,1 @@
-global.BaseHealth = 200;
+global.BaseHealth = 5;

@@ -1,5 +1,7 @@
 if global.BaseHealth <= 0
 {
+	global.Money += obj_Spawn_Wave_Manager.wave / 10 * 100
+	saveData()
 	instance_destroy(obj_Parent_Zombie);
 	instance_destroy(obj_Turret_Parent);
 	instance_destroy(obj_Support_Tower_Parrent);

@@ -5,6 +5,7 @@ for (var i = 0;i<array_length(global.Choosed);i++)
 		if mouse_check_button_pressed(mb_left)
 		{
 			array_delete(global.Choosed,i,1);
+			saveData();
 		}
 	}
 }

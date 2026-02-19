@@ -3,6 +3,7 @@ if array_length(global.Choosed)<5 and global.towerInfo[image_index].brought == t
 	if !array_contains(global.Choosed,image_index)
 	{
 		array_push(global.Choosed,image_index);
+		saveData()
 	}
 }
 
