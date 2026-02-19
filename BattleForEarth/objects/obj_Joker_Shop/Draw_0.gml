@@ -4,6 +4,7 @@ draw_set_alpha(1)
 draw_self()
 draw_set_halign(fa_middle)
 draw_set_colour(c_white)
+draw_set_font(fnt_Agressive20)
 
 for (var i = 0;i < array_length(shop);i++)
 {

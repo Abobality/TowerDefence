@@ -79,6 +79,7 @@
     {"id":{"name":"obj_Title","path":"objects/obj_Title/obj_Title.yy",},},
     {"id":{"name":"obj_Tower_Parent","path":"objects/obj_Tower_Parent/obj_Tower_Parent.yy",},},
     {"id":{"name":"obj_Weaponed_Joker","path":"objects/obj_Weaponed_Joker/obj_Weaponed_Joker.yy",},},
+    {"id":{"name":"obj_Win_Manager","path":"objects/obj_Win_Manager/obj_Win_Manager.yy",},},
     {"id":{"name":"obj_Zombie_Boss1","path":"objects/obj_Zombie_Boss1/obj_Zombie_Boss1.yy",},},
     {"id":{"name":"obj_Zombie_Case","path":"objects/obj_Zombie_Case/obj_Zombie_Case.yy",},},
     {"id":{"name":"pth_level_1","path":"paths/pth_level_1/pth_level_1.yy",},},

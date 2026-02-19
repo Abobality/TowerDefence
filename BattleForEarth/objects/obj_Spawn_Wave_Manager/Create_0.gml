@@ -1,6 +1,6 @@
 waves = global.waves;
 
-wave = 1;
+wave = 32;
 zombieNumber = 0;
 isWaiting = false;
 
@@ -11,24 +11,28 @@ waiting = function()
 
 createZombie = function()
 {
-	if zombieNumber < array_length(waves[wave])-1
+	if wave < array_length(waves)
 	{
-		instance_create_layer(path_get_x(pth_level_1,0),path_get_y(pth_level_1,0),"Instances",waves[wave][zombieNumber])
-		zombieNumber++
-		alarm[0] = 20;
-	}else{
-		wave++
-		zombieNumber = 0;
-		if instance_exists(obj_Support_Tower_Parrent)
+		if zombieNumber < array_length(waves[wave])
 		{
-			with(obj_Support_Tower_Parrent)
+			instance_create_layer(path_get_x(pth_level_1,0),path_get_y(pth_level_1,0),"Instances",waves[wave-1][zombieNumber])
+			zombieNumber++
+			alarm[0] = 20;
+		}else{
+			wave++
+			zombieNumber = 0;
+			if instance_exists(obj_Support_Tower_Parrent)
 			{
-				self.support_function()
+				with(obj_Support_Tower_Parrent)
+				{
+					self.support_function()
+				}
 			}
+			waiting();
 		}
-		waiting();
+	}else if wave == array_length(waves){
+		instance_create_layer(0,0,"UI",obj_Win_Manager)	
 	}
-	
 }
 
 alarm[0] = 300;
