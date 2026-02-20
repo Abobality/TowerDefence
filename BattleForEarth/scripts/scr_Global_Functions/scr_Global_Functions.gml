@@ -50,7 +50,7 @@ function wavesSetUp(X)
 	global.middleWaves2M = array_create(200 * global.Multiple,obj_Fast_Zombie)
 	global.middleWaves3M = array_create(100 * global.Multiple,obj_Tank_Zombie) 
 	global.middleWavesHybridM = array_create(150 * global.Multiple,obj_Basic_Zombie) repeat 100 * global.Multiple{array_push(global.easyWavesHybridS,obj_Fast_Zombie)} repeat 100 * global.Multiple{array_push(global.easyWavesHybridS,obj_Tank_Zombie)}
-	global.bossWave = array_create(50 * global.Multiple,obj_Tank_Zombie) 
+	global.bossWave = array_create(50 * global.Multiple,obj_Zombie_Boss1) 
 	repeat(global.Multiple){array_push(global.bossWave,obj_Zombie_Boss1)}
 
 	global.easyWavesS = [global.easyWaves1S,global.easyWaves2S,global.easyWavesHybridS]
@@ -58,4 +58,27 @@ function wavesSetUp(X)
 	global.middleWavesS = [global.middleWaves1S,global.middleWaves2S,global.middleWaves3S,global.middleWavesHybridS]
 	global.middleWavesM = [global.middleWaves1M,global.middleWaves2M,global.middleWaves3M,global.middleWavesHybridM]
 
+}
+
+function moneyGive()
+{
+	var earn = 0;
+	var wave = obj_Spawn_Wave_Manager.wave
+	
+	if wave < 8
+	{
+		earn = 30
+	}else if wave > 8 and wave < 16
+	{
+		earn = 60
+	}else if wave > 16 and wave < 32
+	{
+		earn = 90
+	}else if wave > 32
+	{
+		earn = 100 * global.Multiple
+	}
+	
+	global.Money += earn
+	
 }

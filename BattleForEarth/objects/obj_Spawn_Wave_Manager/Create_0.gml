@@ -1,6 +1,6 @@
 waves = global.waves;
 
-wave = 1;
+wave = 30;
 zombieNumber = 0;
 isWaiting = false;
 
@@ -30,7 +30,7 @@ createZombie = function()
 			}
 			waiting();
 		}
-	}else if wave == array_length(waves){
+	}else if wave == array_length(waves)+1{
 		instance_create_layer(0,0,"UI",obj_Win_Manager)	
 	}
 }

@@ -8,8 +8,6 @@ repeat 10
 	array_push(global.waves,global.easyWavesS[irandom_range(0,2)]);
 }
 
-array_push(global.waves,obj_Tank_Zombie)
-
 repeat 10
 {
 	
@@ -23,6 +21,9 @@ repeat 10
 }
 
 array_push(global.waves,global.bossWave)
+array_push(global.waves,global.bossWave)
+
+
 
 
 
