@@ -41,9 +41,9 @@ function wavesSetUp(X)
 	easySmallTankWave = array_create(6 * global.Multiple,obj_Tank_Zombie)
 	
 	easyLightHybridWave = array_create(10 * global.Multiple,obj_Basic_Zombie)
-					   repeat 15 * global.Multiple{array_push(easySmalBossWave,obj_Fast_Zombie)}
+					   repeat 15 * global.Multiple{array_push(easyLightHybridWave,obj_Fast_Zombie)}
 	easyTankHybridWave = array_create(10 * global.Multiple,obj_Basic_Zombie)
-					   repeat 10 * global.Multiple{array_push(easySmalBossWave,obj_Tank_Zombie)}
+					   repeat 10 * global.Multiple{array_push(easyTankHybridWave,obj_Tank_Zombie)}
 	
 	easySmalBossWave = array_create(10 * global.Multiple,obj_Basic_Zombie)
 					   repeat 15 * global.Multiple{array_push(easySmalBossWave,obj_Fast_Zombie)}
