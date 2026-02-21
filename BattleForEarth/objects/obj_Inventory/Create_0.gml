@@ -34,7 +34,7 @@ drawSprites =
 placeTower =
 [
 	{
-		object: obj_Soldier,
+		object: obj_Cryogunner,
 		cost: 100
 	},
 	{
