@@ -51,6 +51,7 @@
     {"id":{"name":"obj_Choosed","path":"objects/obj_Choosed/obj_Choosed.yy",},},
     {"id":{"name":"obj_Cryo_Bullet","path":"objects/obj_Cryo_Bullet/obj_Cryo_Bullet.yy",},},
     {"id":{"name":"obj_Cryogunner","path":"objects/obj_Cryogunner/obj_Cryogunner.yy",},},
+    {"id":{"name":"obj_Dynoman","path":"objects/obj_Dynoman/obj_Dynoman.yy",},},
     {"id":{"name":"obj_Electro_Joker","path":"objects/obj_Electro_Joker/obj_Electro_Joker.yy",},},
     {"id":{"name":"obj_Enemy_Counter","path":"objects/obj_Enemy_Counter/obj_Enemy_Counter.yy",},},
     {"id":{"name":"obj_Fast_Zombie","path":"objects/obj_Fast_Zombie/obj_Fast_Zombie.yy",},},
