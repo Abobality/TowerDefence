@@ -24,31 +24,6 @@ arrayOfCash =
 	"okak"
 ]
 
-punch = function()
-{
-	image_xscale = 1.1;
-	image_yscale = 0.9;
-	if image_index < 5
-	{
-		image_speed = 1;
-	}else{
-		image_speed = 0;
-		image_index = 0;
-	}
-	
-	if image_index >= 3
-	{
-		instance_create_layer(x+80,y-8,"Instances",obj_Shot_Gun_Shot,
-		{
-			drawColour: c_yellow,
-			damage: damage,
-			image_xscale: 3,
-			image_yscale: 3
-		})
-	}
-	
-	alarm[1] = 5;
-}
 
 lvlUp = function()
 {
