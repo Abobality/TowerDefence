@@ -28,13 +28,18 @@ drawSprites =
 	spr_Sniper,
 	spr_Shot_Gunner,
 	spr_Miner,
-	spr_MinigunnerBody
+	spr_MinigunnerBody,
+	spr_Soldier,
+	spr_dynoman,
+	spr_policelvl1,
+	spr_cryogunner,
+	spr_doctor
 ]
 
 placeTower =
 [
 	{
-		object: obj_Doctor,
+		object: obj_Scout,
 		cost: 100
 	},
 	{
@@ -51,6 +56,26 @@ placeTower =
 	},
 	{
 		object: obj_Minigunner,
+		cost: 1150
+	},
+	{
+		object: obj_Soldier,
+		cost: 1150
+	},
+	{
+		object: obj_Dynoman,
+		cost: 1150
+	},
+	{
+		object: obj_Policeman,
+		cost: 1150
+	},
+	{
+		object: obj_Cryogunner,
+		cost: 1150
+	},
+	{
+		object: obj_Doctor,
 		cost: 1150
 	}
 ]

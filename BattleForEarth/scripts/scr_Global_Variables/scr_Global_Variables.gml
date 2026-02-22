@@ -40,12 +40,51 @@ global.towerInfo = [
 		cost: 100,
 		brought: false
 	},
-	
+	{
+		title: "Soldier",
+		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		image: spr_Soldier,
+		image2: spr_Null,
+		cost: 100,
+		brought: false
+	},
+	{
+		title: "Dynoman",
+		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		image: spr_dynoman,
+		image2: spr_Null,
+		cost: 100,
+		brought: false
+	},
+	{
+		title: "Policeman",
+		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		image: spr_policelvl1,
+		image2: spr_Null,
+		cost: 100,
+		brought: false
+	},
+	{
+		title: "Cryogunner",
+		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		image: spr_cryogunner,
+		image2: spr_Null,
+		cost: 100,
+		brought: false
+	},
+	{
+		title: "Doctor",
+		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		image: spr_doctor,
+		image2: spr_Null,
+		cost: 100,
+		brought: false
+	},
 ]
 
 global.currentWaveEnemies = [];
 
-global.Money = 500;
+global.Money = 50000;
 global.Multiple = 1;
 
 global.waves = [];
