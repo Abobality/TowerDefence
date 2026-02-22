@@ -90,3 +90,4 @@ global.Multiple = 1;
 global.waves = [];
 
 global.shop = false;
+global.autoSkip = false;
