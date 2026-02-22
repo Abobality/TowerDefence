@@ -75,6 +75,7 @@
     {"id":{"name":"obj_Pop_Up","path":"objects/obj_Pop_Up/obj_Pop_Up.yy",},},
     {"id":{"name":"obj_Save_File_Creater","path":"objects/obj_Save_File_Creater/obj_Save_File_Creater.yy",},},
     {"id":{"name":"obj_Scout","path":"objects/obj_Scout/obj_Scout.yy",},},
+    {"id":{"name":"obj_Settings_Title","path":"objects/obj_Settings_Title/obj_Settings_Title.yy",},},
     {"id":{"name":"obj_Shot_Gun_Shot","path":"objects/obj_Shot_Gun_Shot/obj_Shot_Gun_Shot.yy",},},
     {"id":{"name":"obj_Shotgunner","path":"objects/obj_Shotgunner/obj_Shotgunner.yy",},},
     {"id":{"name":"obj_Sniper_Bullet","path":"objects/obj_Sniper_Bullet/obj_Sniper_Bullet.yy",},},
@@ -93,6 +94,7 @@
     {"id":{"name":"rm_Choose_menu","path":"rooms/rm_Choose_menu/rm_Choose_menu.yy",},},
     {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"id":{"name":"rm_Main_Menu","path":"rooms/rm_Main_Menu/rm_Main_Menu.yy",},},
+    {"id":{"name":"rm_Settings","path":"rooms/rm_Settings/rm_Settings.yy",},},
     {"id":{"name":"scr_Bullet_Abilities","path":"scripts/scr_Bullet_Abilities/scr_Bullet_Abilities.yy",},},
     {"id":{"name":"scr_Deck","path":"scripts/scr_Deck/scr_Deck.yy",},},
     {"id":{"name":"scr_Global_Functions","path":"scripts/scr_Global_Functions/scr_Global_Functions.yy",},},
@@ -142,6 +144,7 @@
     {"roomId":{"name":"rm_Main_Menu","path":"rooms/rm_Main_Menu/rm_Main_Menu.yy",},},
     {"roomId":{"name":"rm_Choose_menu","path":"rooms/rm_Choose_menu/rm_Choose_menu.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"roomId":{"name":"rm_Settings","path":"rooms/rm_Settings/rm_Settings.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

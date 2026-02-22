@@ -7,7 +7,7 @@ pressFunction = function(index)
 			break;
 			
 		case 1:
-			
+			room_goto(rm_Settings);
 			break;
 			
 		case 2:
