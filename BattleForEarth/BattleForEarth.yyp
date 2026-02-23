@@ -101,6 +101,7 @@
     {"id":{"name":"scr_Global_Functions","path":"scripts/scr_Global_Functions/scr_Global_Functions.yy",},},
     {"id":{"name":"scr_Global_Variables","path":"scripts/scr_Global_Variables/scr_Global_Variables.yy",},},
     {"id":{"name":"scr_Joker_Abilities","path":"scripts/scr_Joker_Abilities/scr_Joker_Abilities.yy",},},
+    {"id":{"name":"scr_Promocodes","path":"scripts/scr_Promocodes/scr_Promocodes.yy",},},
     {"id":{"name":"mp_Level_1","path":"sprites/mp_Level_1/mp_Level_1.yy",},},
     {"id":{"name":"spr_bullet_pistol","path":"sprites/spr_bullet_pistol/spr_bullet_pistol.yy",},},
     {"id":{"name":"spr_bullet_sniper","path":"sprites/spr_bullet_sniper/spr_bullet_sniper.yy",},},
