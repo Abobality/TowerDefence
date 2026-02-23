@@ -2,7 +2,8 @@ function saveData(){
 	var save_data = {
 		money: global.Money,
 		info: global.towerInfo,
-		deck: global.Choosed
+		deck: global.Choosed,
+		promo: global.promocodes
 	}
 
 	var _string = json_stringify(save_data);

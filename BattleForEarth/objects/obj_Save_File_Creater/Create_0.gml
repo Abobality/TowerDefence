@@ -8,4 +8,5 @@ if (file_exists("savegame.json")) {
 	global.Money = _data.money;
 	global.towerInfo = _data.info;
 	global.Choosed = _data.deck;
+	global.promocodes = _data.promo;
 }
