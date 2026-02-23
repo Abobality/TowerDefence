@@ -5,8 +5,13 @@ global.promocodes = [
 		expired: false
 	},
 	{
-		code: "money1000",
+		code: "600",
 		reward: function(){global.Money += 100},
 		expired: false
 	}
+]
+
+global.codes = [
+	"money100",
+	"600",
 ]
