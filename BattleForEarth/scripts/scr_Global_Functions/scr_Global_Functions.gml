@@ -78,3 +78,39 @@ function moneyGive()
 	global.Money += earn
 	
 }
+
+function promocodeCheck(index)
+{
+	if keyboard_string = global.promocodes[index].code
+	{
+		if global.promocodes[index].expired = false
+		{
+			global.promocodes[index].reward();
+			global.promocodes[index].expired = true;
+		
+			instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
+			{
+				text: "code accepted!",
+				color: c_white,
+				font: fnt_Agressive12
+			})
+		}else{
+			instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
+			{
+				text: "code expired!",
+				color: c_white,
+				font: fnt_Agressive12
+			})
+		}
+		
+	}
+	
+	if keyboard_string != global.promocodes[index].code {
+		instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
+		{
+			text: "code incorrect!",
+			color: c_white,
+			font: fnt_Agressive12
+		})
+	}
+}
