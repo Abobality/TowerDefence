@@ -10,15 +10,15 @@ global.towerInfo = [
 	},
 	{
 		title: "Sniper",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:100 coins\nIn game Cost:600$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
 		image: spr_Sniper,
 		image2: spr_Sniper_Hands,
-		cost: 300,
+		cost: 100,
 		brought: false
 	},
 	{
 		title: "Shotgunner",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:300 coins\nIn game Cost:350$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
 		image: spr_Shot_Gunner,
 		image2: spr_Shot_Gunner_Hands,
 		cost: 100,
@@ -26,7 +26,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Miner",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:300 coins\nIn game Cost:300$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
 		image: spr_Miner,
 		image2: spr_Miner_Hands,
 		cost: 100,
@@ -34,7 +34,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Minigunner",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:1000 coins\nIn game Cost:1150$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
 		image: spr_MinigunnerBody,
 		image2: spr_MinigunnerHand,
 		cost: 100,
@@ -42,7 +42,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Soldier",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:500 coins\nIn game Cost:350$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
 		image: spr_Soldier,
 		image2: spr_Null,
 		cost: 100,
@@ -50,7 +50,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Dynoman",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:700 coins\nIn game Cost:300$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
 		image: spr_dynoman,
 		image2: spr_Null,
 		cost: 100,
@@ -58,7 +58,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Policeman",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:300 coins\nIn game Cost:600$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
 		image: spr_policelvl1,
 		image2: spr_Null,
 		cost: 100,
@@ -66,7 +66,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Cryogunner",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:300 coins\nIn game Cost:350$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
 		image: spr_cryogunner,
 		image2: spr_Null,
 		cost: 100,
@@ -74,7 +74,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Doctor",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:600 coins\nIn game Cost:300$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
 		image: spr_doctor,
 		image2: spr_Null,
 		cost: 100,

@@ -1,7 +1,6 @@
 jokerHealth = 200;
 
 image_speed = 2;
-image_blend = #5DC8CD;
 
 if path_exists(pth_level_1)
 {

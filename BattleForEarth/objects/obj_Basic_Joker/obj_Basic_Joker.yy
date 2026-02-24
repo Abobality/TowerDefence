@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Zombie",
-    "path":"sprites/spr_Zombie/spr_Zombie.yy",
+    "name":"spr_jokers_basic_move",
+    "path":"sprites/spr_jokers_basic_move/spr_jokers_basic_move.yy",
   },
   "spriteMaskId":null,
   "visible":true,
