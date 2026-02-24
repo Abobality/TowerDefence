@@ -1,9 +1,9 @@
-range = room_width;
+range = 64;
 cooldown = 120;
 image_speed = 0;
 barrage = 0;
 upgrade = false;
-cost = 50;
+cost = 350;
 lvl = 1;
 damage = 50;
 name = "Shotgunner"

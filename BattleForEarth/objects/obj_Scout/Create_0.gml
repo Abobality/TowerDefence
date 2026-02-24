@@ -1,4 +1,4 @@
-range = room_width;
+range = 320;
 cooldown = 120;
 image_speed = 0;
 barrage = 0;
@@ -39,7 +39,7 @@ lvlUp = function()
 			global.cash -= cost;
 			cost *= 2;
 			lvl++;
-			damage+=25;
+			damage+=10;
 			if lvl = 3 
 			{
 				damage*=2

@@ -1,12 +1,12 @@
-range = room_width;
+range = 320;
 cooldown = 120;
 image_speed = 0;
 barrage = 0;
 upgrade = false;
-cost = 50;
+cost = 300;
 lvl = 1;
-damage = 50;
-name = "Shotgunner"
+damage = 25;
+name = "Dynoman"
 invisDetection = false;
 
 

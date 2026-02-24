@@ -48,7 +48,7 @@ global.Jokers = [
 	},
 	{
 		object: obj_Angel_Joker,
-		cost: 10000
+		cost: 20000
 	},
 	{
 		object: obj_Weaponed_Joker,

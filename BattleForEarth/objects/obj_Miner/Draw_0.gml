@@ -1,6 +1,7 @@
 draw_self();
 draw_set_colour(c_white)
 draw_set_halign(fa_middle)
+draw_set_font(fnt_Agressive12)
 draw_sprite(spr_Miner_Hands,current_level-1,x,y + sin(delta_time))
 
 

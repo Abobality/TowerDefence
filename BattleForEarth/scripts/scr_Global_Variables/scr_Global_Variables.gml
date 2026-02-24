@@ -2,7 +2,7 @@ global.towerInfo = [
 	
 	{
 		title: "Scout",
-		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:10\nRadius:150\n\n\nYour starter\npack btw",
+		text: "\n\nCost:100 coins\nIn game Cost:100$\nDamage:25\nRadius:medium\n\n\nYour starter\npack btw",
 		image: spr_Scout,
 		image2: spr_Scout_Hands,
 		cost: 100,
@@ -10,7 +10,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Sniper",
-		text: "\n\nCost:100 coins\nIn game Cost:600$\nDamage:10\nRadius:high\n\n\nThe strogest\none",
+		text: "\n\nCost:100 coins\nIn game Cost:600$\nDamage:100\nRadius:high\n\n\nThe strogest\none",
 		image: spr_Sniper,
 		image2: spr_Sniper_Hands,
 		cost: 100,
@@ -18,7 +18,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Shotgunner",
-		text: "\n\nCost:300 coins\nIn game Cost:350$\nDamage:30\nRadius:low\n\n\nU really\nwanna get\ncloser?",
+		text: "\n\nCost:300 coins\nIn game Cost:350$\nDamage:50(splash)\nRadius:low\n\n\nU really\nwanna get\ncloser?",
 		image: spr_Shot_Gunner,
 		image2: spr_Shot_Gunner_Hands,
 		cost: 300,
@@ -42,7 +42,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Soldier",
-		text: "\n\nCost:500 coins\nIn game Cost:350$\nDamage:10\nRadius:high\n\n\nMore than\none bullet",
+		text: "\n\nCost:500 coins\nIn game Cost:350$\nDamage:25\nRadius:high\n\n\nMore than\none bullet",
 		image: spr_Soldier,
 		image2: spr_Null,
 		cost: 500,
@@ -50,7 +50,7 @@ global.towerInfo = [
 	},
 	{
 		title: "Dynoman",
-		text: "\n\nCost:700 coins\nIn game Cost:300$\nDamage:25\nRadius:medium\n\n\nExplosion is\nart!",
+		text: "\n\nCost:700 coins\nIn game Cost:300$\nDamage:25(splash)\nRadius:medium\n\n\nExplosion is\nart!",
 		image: spr_dynoman,
 		image2: spr_Null,
 		cost: 700,

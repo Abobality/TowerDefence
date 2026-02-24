@@ -3,7 +3,7 @@ cooldown = 120;
 image_speed = 0;
 barrage = 0;
 upgrade = false;
-cost = 50;
+cost = 350;
 lvl = 1;
 damage = 25;
 name = "Scout"
@@ -56,7 +56,7 @@ lvlUp = function()
 			{
 				damage*=2
 			}
-			if lvl < 4
+			if lvl < 5
 			{
 				image_index++;
 			}

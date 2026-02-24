@@ -44,7 +44,7 @@ placeTower =
 	},
 	{
 		object: obj_Sniper,
-		cost: 500
+		cost: 600
 	},
 	{
 		object: obj_Shotgunner,
@@ -52,7 +52,7 @@ placeTower =
 	},
 	{
 		object: obj_Miner,
-		cost: 250
+		cost: 300
 	},
 	{
 		object: obj_Minigunner,
@@ -60,23 +60,23 @@ placeTower =
 	},
 	{
 		object: obj_Soldier,
-		cost: 1150
+		cost: 350
 	},
 	{
 		object: obj_Dynoman,
-		cost: 1150
+		cost: 300
 	},
 	{
 		object: obj_Policeman,
-		cost: 1150
+		cost: 600
 	},
 	{
 		object: obj_Cryogunner,
-		cost: 1150
+		cost: 350
 	},
 	{
 		object: obj_Doctor,
-		cost: 1150
+		cost: 300
 	}
 ]
 

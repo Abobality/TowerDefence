@@ -1,3 +1,4 @@
+cost = 0
 support_function = function()
 {
 
