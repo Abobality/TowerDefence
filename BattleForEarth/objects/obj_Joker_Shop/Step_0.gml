@@ -4,7 +4,7 @@ for (var i = 0;i < array_length(shop);i++)
 	{
 		if global.Jokers[shop[i]].cost <= global.cash
 		{
-			if array_length(global.JokerChoosed) < 5
+			if array_length(global.JokerChoosed) < 3
 			{
 				array_push(global.JokerChoosed,shop[i])
 				global.cash -= global.Jokers[shop[i]].cost

@@ -1,6 +1,6 @@
 waves = global.waves;
 
-wave = 1;
+wave = 4;
 zombieNumber = 0;
 isWaiting = false;
 
