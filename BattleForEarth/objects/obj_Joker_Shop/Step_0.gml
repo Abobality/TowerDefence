@@ -6,6 +6,7 @@ for (var i = 0;i < array_length(shop);i++)
 		{
 			if array_length(global.JokerChoosed) < 3
 			{
+				audio_play_sound(snd_money_gain,1,false,global.audio);
 				array_push(global.JokerChoosed,shop[i])
 				global.cash -= global.Jokers[shop[i]].cost
 				array_delete(shop,i,1)

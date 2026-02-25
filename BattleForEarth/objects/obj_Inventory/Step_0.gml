@@ -35,6 +35,7 @@ for(var i = 0;i < array_length(jokerInventory);i++)
 	if mouse_check_button_pressed(mb_right) and global.shop = true and point_in_rectangle(mouse_x,mouse_y,x+32,y + i*96-48,x+80,y + i*96 + 48) 
 	{
 		global.cash += global.Jokers[jokerInventory[i]].cost
+		audio_play_sound(snd_money_gain,1,false,global.audio);
 		array_delete(jokerInventory,i,1)
 	}
 }

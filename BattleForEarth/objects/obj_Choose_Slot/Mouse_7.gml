@@ -3,6 +3,7 @@ if array_length(global.Choosed)<5 and global.towerInfo[image_index].brought == t
 	if !array_contains(global.Choosed,image_index)
 	{
 		array_push(global.Choosed,image_index);
+		audio_play_sound(snd_Card,1,false,global.audio)
 		saveData()
 	}
 }
@@ -12,6 +13,7 @@ if global.towerInfo[image_index].brought == false and global.towerInfo[image_ind
 	global.Money -= global.towerInfo[image_index].cost;
 	global.towerInfo[image_index].brought = true;
 	image_blend = c_white;
+	audio_play_sound(snd_money_gain,1,false,global.audio)
 	saveData();
 	instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
 		{

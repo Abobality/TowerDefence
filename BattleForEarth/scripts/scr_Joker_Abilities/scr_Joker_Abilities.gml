@@ -1,5 +1,6 @@
 function frostJoker(object)
 {
+	audio_play_sound(snd_freeze,1,false,global.audio);
 	object.path_speed = object.path_speed/2;
 	object.image_blend = c_aqua;
 	
@@ -14,6 +15,7 @@ function frostJoker(object)
 
 function electroJoker(object)
 {
+	audio_play_sound(snd_electro_joker,1,false,global.audio);
 	var zombieSpeed = object.path_speed;
 	var imageSpeed = object.image_speed;
 	object.path_speed = 0;
@@ -32,6 +34,7 @@ function electroJoker(object)
 
 function angelJoker()
 {
+	audio_play_sound(snd_Heaven_Jkoker_Effect,1,false,global.audio);
 	with(obj_Parent_Zombie)
 	{
 		healthPoints = 0;

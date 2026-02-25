@@ -4,6 +4,8 @@ wave = 4;
 zombieNumber = 0;
 isWaiting = false;
 
+zombieSounds = [snd_zombie1,snd_zombie2,snd_zombie3]
+
 waiting = function()
 {
 	isWaiting = true;
@@ -17,6 +19,7 @@ createZombie = function()
 		{
 			instance_create_layer(path_get_x(pth_level_1,0),path_get_y(pth_level_1,0),"Instances",waves[wave][zombieNumber])
 			zombieNumber++
+			audio_play_sound(zombieSounds[irandom_range(0,2)],1,false,global.audio);
 			alarm[0] = 20;
 		}else{
 			wave++

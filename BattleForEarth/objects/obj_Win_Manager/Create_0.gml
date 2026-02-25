@@ -1,3 +1,4 @@
+audio_play_sound(snd_triumph,1,false,global.audio);
 moneyGive()
 saveData()
 instance_deactivate_all(true)

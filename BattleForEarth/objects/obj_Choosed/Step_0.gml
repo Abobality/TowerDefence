@@ -4,6 +4,7 @@ for (var i = 0;i<array_length(global.Choosed);i++)
 	{
 		if mouse_check_button_pressed(mb_left)
 		{
+			audio_play_sound(snd_button,1,false,global.audio)
 			array_delete(global.Choosed,i,1);
 			saveData();
 		}
