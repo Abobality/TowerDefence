@@ -8,7 +8,7 @@ lvl = 1;
 damage = 50;
 name = "Shotgunner"
 invisDetection = false;
-
+depth = -y
 
 arrayOfCash = 
 [
@@ -19,6 +19,7 @@ arrayOfCash =
 
 shot = function()
 {
+	audio_play_sound(snd_shotgun_shot,1,false,global.audio);
 	image_xscale = 1.1;
 	image_yscale = 0.9;
 	instance_create_layer(x+80,y-8,"Instances",obj_Shot_Gun_Shot,

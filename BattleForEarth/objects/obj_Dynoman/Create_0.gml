@@ -8,7 +8,7 @@ lvl = 1;
 damage = 25;
 name = "Dynoman"
 invisDetection = false;
-
+depth = -y
 
 arrayOfCash = 
 [

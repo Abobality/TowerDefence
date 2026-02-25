@@ -1,3 +1,4 @@
+audio_play_sound(snd_pistol_shot,1,false,global.audio);
 instance_create_depth(x,y,-3,obj_Pistol_Bullet,
 {
 	drawColour: #FEFE22,

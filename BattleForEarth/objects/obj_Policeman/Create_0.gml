@@ -8,6 +8,7 @@ lvl = 1;
 damage = 50;
 name = "Shotgunner"
 invisDetection = false;
+depth = -y
 
 sprites = [
 	spr_policelvl1,
@@ -51,3 +52,14 @@ lvlUp = function()
 	}
 }
 
+punch = function()
+{
+	audio_play_sound(snd_police_punch,1,false,global.audio);
+	instance_create_layer(x+80,y-8,"Instances",obj_Shot_Gun_Shot,
+	{
+		drawColour: c_yellow,
+		damage: damage,
+		image_xscale: 3,
+		image_yscale: 3
+	})
+}

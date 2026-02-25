@@ -8,7 +8,7 @@ lvl = 1;
 damage = 25;
 name = "Scout"
 invisDetection = false;
-
+depth = -y
 
 arrayOfCash = 
 [
@@ -21,6 +21,7 @@ shot = function()
 {
 	image_xscale = 1.1;
 	image_yscale = 0.9;
+	audio_play_sound(snd_freeze,1,false,global.audio);
 	instance_create_layer(x+16,y,"Instances",obj_Cryo_Bullet,
 	{
 		drawColour: c_aqua,

@@ -2,9 +2,11 @@ upgrade = false;
 cost = 300;
 income = 100;
 name = "Miner"
+depth = -y
 
 support_function = function()
 {
+	audio_play_sound(snd_money_gain,1,false,global.audio);
 	global.cash += income;
 	instance_create_depth(x,y,depth-1,obj_Pop_Up,
 	{

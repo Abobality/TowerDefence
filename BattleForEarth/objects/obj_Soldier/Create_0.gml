@@ -8,7 +8,7 @@ lvl = 1;
 damage = 25;
 name = "Scout"
 invisDetection = false;
-
+depth = -y
 
 arrayOfCash = 
 [
@@ -19,6 +19,7 @@ arrayOfCash =
 
 shot = function()
 {
+	audio_play_sound(snd_pistol_shot,1,false,global.audio);
 	image_xscale = 1.1;
 	image_yscale = 0.9;
 	if lvl > 4 and barrage = 3
@@ -56,10 +57,7 @@ lvlUp = function()
 			{
 				damage*=2
 			}
-			if lvl < 5
-			{
-				image_index++;
-			}
+			image_index++;
 		}
 	}else{ 
 		instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,

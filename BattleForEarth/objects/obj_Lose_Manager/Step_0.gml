@@ -3,6 +3,7 @@ if global.BaseHealth <= 0
 	saveData()
 	if audioplayed = false
 	{
+		audio_pause_all()
 		audio_play_sound(snd_fail,1,false,global.audio);
 		instance_create_layer(room_width/2,room_height/2,"UI",obj_Title,
 		{
@@ -12,7 +13,8 @@ if global.BaseHealth <= 0
 		});
 		audioplayed = true
 	}
-
+	
+	global.JokerChoosed = []
 	instance_destroy(obj_Parent_Zombie);
 	instance_destroy(obj_Tower_Parent);
 	instance_destroy(obj_Support_Tower_Parrent);
