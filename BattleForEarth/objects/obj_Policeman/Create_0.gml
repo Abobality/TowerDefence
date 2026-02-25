@@ -1,4 +1,4 @@
-range = room_width;
+range = 64;
 cooldown = 120;
 image_speed = 0;
 barrage = 0;
@@ -54,12 +54,16 @@ lvlUp = function()
 
 punch = function()
 {
+	var object = obj_Bat_Basic_Hitbox
+	
+	if lvl >= 4
+	{
+		object = obj_Bat_Electro_Hitbox
+	}
 	audio_play_sound(snd_police_punch,1,false,global.audio);
-	instance_create_layer(x+80,y-8,"Instances",obj_Shot_Gun_Shot,
+	instance_create_layer(x+80,y-8,"Instances",object,
 	{
 		drawColour: c_yellow,
-		damage: damage,
-		image_xscale: 3,
-		image_yscale: 3
+		damage: damage
 	})
 }

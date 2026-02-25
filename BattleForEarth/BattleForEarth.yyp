@@ -43,6 +43,8 @@
     {"id":{"name":"obj_Angel_Joker","path":"objects/obj_Angel_Joker/obj_Angel_Joker.yy",},},
     {"id":{"name":"obj_Basic_Joker","path":"objects/obj_Basic_Joker/obj_Basic_Joker.yy",},},
     {"id":{"name":"obj_Basic_Zombie","path":"objects/obj_Basic_Zombie/obj_Basic_Zombie.yy",},},
+    {"id":{"name":"obj_Bat_Basic_Hitbox","path":"objects/obj_Bat_Basic_Hitbox/obj_Bat_Basic_Hitbox.yy",},},
+    {"id":{"name":"obj_Bat_Electro_Hitbox","path":"objects/obj_Bat_Electro_Hitbox/obj_Bat_Electro_Hitbox.yy",},},
     {"id":{"name":"obj_Bullet_Parent_Manager","path":"objects/obj_Bullet_Parent_Manager/obj_Bullet_Parent_Manager.yy",},},
     {"id":{"name":"obj_Bullet_Parent","path":"objects/obj_Bullet_Parent/obj_Bullet_Parent.yy",},},
     {"id":{"name":"obj_Buttons","path":"objects/obj_Buttons/obj_Buttons.yy",},},

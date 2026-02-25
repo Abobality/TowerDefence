@@ -3,6 +3,7 @@ waves = global.waves;
 wave = 4;
 zombieNumber = 0;
 isWaiting = false;
+triumphWait = false;
 
 zombieSounds = [snd_zombie1,snd_zombie2,snd_zombie3]
 
@@ -33,8 +34,10 @@ createZombie = function()
 			}
 			waiting();
 		}
-	}else if wave == array_length(waves){
+	}else if wave == array_length(waves) and instance_number(obj_Parent_Zombie) <= 0{
 		instance_create_layer(0,0,"UI",obj_Win_Manager)	
+	}else{
+		triumphWait = true
 	}
 }
 
