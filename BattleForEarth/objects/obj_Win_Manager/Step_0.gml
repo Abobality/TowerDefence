@@ -21,7 +21,6 @@ if keyboard_check_pressed(ord("C"))
 }
 else if keyboard_check_pressed(ord("E"))
 {
-	array_push(global.waveRecord,obj_Spawn_Wave_Manager.wave)
 	instance_create_depth(0,0,-100,obj_Fade_In,
 	{
 		depth: -10000,

@@ -1,3 +1,8 @@
-move_towards_point(room_width,y,bulletSpeed)
+move = function()
+{
+	move_towards_point(room_width,y,bulletSpeed)
+}
 
+active = false
 bulletPersistent = 1;
+visible = false

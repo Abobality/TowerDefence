@@ -1,0 +1,1 @@
+bullet_pistol_pool = []
