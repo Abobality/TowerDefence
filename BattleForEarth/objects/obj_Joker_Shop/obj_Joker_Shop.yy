@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Scout",
-    "path":"sprites/spr_Scout/spr_Scout.yy",
+    "name":"spr_Joker_Shop",
+    "path":"sprites/spr_Joker_Shop/spr_Joker_Shop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -3,7 +3,10 @@ pressFunction = function(index)
 	switch index
 	{
 		case 0:
-			room_goto(rm_Choose_menu);
+			instance_create_depth(0,0,-100,obj_Fade_In,
+			{
+				room_target: rm_Choose_menu
+			});
 			break;
 			
 		case 1:
