@@ -1,5 +1,5 @@
-maxHealth = 1000
-healthPoints = 300
+maxHealth = 1000 * global.Multiple
+healthPoints = 1000 * global.Multiple
 isVisible = true;
 damaged = [];
 

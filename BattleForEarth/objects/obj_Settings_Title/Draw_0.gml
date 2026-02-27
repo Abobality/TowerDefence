@@ -11,6 +11,7 @@ draw_text_transformed(room_width/2,64,"settings",1.5,1.5,0);
 draw_text(room_width/2-120,160,"volume");
 draw_text(room_width/2-120,260,"auto skip");
 draw_text(room_width/2-120,360,"codes");
+draw_text(64,32,"<esc");
 draw_set_halign(fa_left);
 draw_text(room_width/2,360,keyboard_string);
 draw_rectangle(room_width/2 + 50,245,room_width/2+80,275,true)

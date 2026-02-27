@@ -21,7 +21,6 @@ shot = function()
 	image_yscale = 0.9;
 	instance_create_layer(x+16,y-32,"Instances",obj_Bullet_Parent,
 	{
-		drawColour: c_yellow,
 		damage: 100
 	})
 	alarm[1] = 5;

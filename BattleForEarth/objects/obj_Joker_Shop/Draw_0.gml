@@ -5,6 +5,7 @@ draw_self()
 draw_set_halign(fa_middle)
 draw_set_colour(c_white)
 draw_set_font(fnt_Agressive20)
+draw_text(848,560,"enter>")
 
 for (var i = 0;i < array_length(shop);i++)
 {

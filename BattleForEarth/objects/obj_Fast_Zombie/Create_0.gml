@@ -1,6 +1,6 @@
-maxHealth = 60;
+maxHealth = 60 * global.Multiple;
 isVisible = true;
-healthPoints = 60
+healthPoints = 60 * global.Multiple
 damaged = []
 
 array_push(global.currentWaveEnemies,id);

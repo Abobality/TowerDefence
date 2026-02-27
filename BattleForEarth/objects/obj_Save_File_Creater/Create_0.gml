@@ -9,4 +9,7 @@ if (file_exists("savegame.json")) {
 	global.towerInfo = _data.info;
 	global.Choosed = _data.deck;
 	global.promocodes = _data.promo;
+	global.audio = _data.audio;
+	global.autoSkip= _data.auto;
+	global.waveRecord = _data.record;
 }

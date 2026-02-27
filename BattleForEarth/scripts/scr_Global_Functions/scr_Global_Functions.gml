@@ -3,7 +3,10 @@ function saveData(){
 		money: global.Money,
 		info: global.towerInfo,
 		deck: global.Choosed,
-		promo: global.promocodes
+		promo: global.promocodes,
+		auto: global.autoSkip,
+		audio: global.audio,
+		record: global.waveRecord
 	}
 
 	var _string = json_stringify(save_data);
@@ -87,7 +90,7 @@ function promocodeCheck(index)
 		{
 			if global.promocodes[index].expired = false
 			{
-				global.promocodes[index].reward();
+				global.promocodes[index].rewards();
 				global.promocodes[index].expired = true;
 		
 				instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,
@@ -125,4 +128,25 @@ function indexChecker(array)
 		}
 	}
 	return pointer_null
+}
+
+function array_max(array)
+{
+	if array_length(array) == 0
+	{
+		return 0
+	}
+	
+	
+	var _max = array[0]
+	
+	for(var i = 0; i< array_length(array);i++)
+	{
+		if array[i] > _max
+		{
+			_max = array[i]
+		}
+	}
+	
+	return _max
 }

@@ -1,5 +1,6 @@
 if global.BaseHealth <= 0
 {
+	array_push(global.waveRecord,obj_Spawn_Wave_Manager.wave)
 	saveData()
 	if audioplayed = false
 	{

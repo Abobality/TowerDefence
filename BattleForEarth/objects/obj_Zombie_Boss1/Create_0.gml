@@ -1,7 +1,7 @@
-maxHealth = 500
+maxHealth = 1500 * global.Multiple
 isVisible = false;
-healthPoints = 500
-resistant = 5
+healthPoints = 1500 * global.Multiple
+resistant = 0
 damaged = [];
 
 array_push(global.currentWaveEnemies,id);

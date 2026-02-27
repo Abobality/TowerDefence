@@ -92,3 +92,4 @@ global.waves = [];
 global.shop = false;
 global.autoSkip = false;
 global.audio = 0.2;
+global.waveRecord = [];
