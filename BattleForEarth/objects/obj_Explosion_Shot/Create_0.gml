@@ -1,0 +1,1 @@
+bulletPersistent = 1000;

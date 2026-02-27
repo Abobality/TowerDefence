@@ -1,4 +1,7 @@
-other.bulletPersistent = 0
+if other.id != obj_Explosion_Shot
+{
+	other.bulletPersistent = 0
+}
 
 if !array_contains(damaged,other.id)
 {

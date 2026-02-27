@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bullet_sniper",
-    "path":"sprites/spr_bullet_sniper/spr_bullet_sniper.yy",
+    "name":"spr_Bullet_Sniper",
+    "path":"sprites/spr_Bullet_Sniper/spr_Bullet_Sniper.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -21,7 +21,6 @@ takeDamage = function(damage)
 
 punch = function()
 {
-	audio_play_sound(snd_ZombieBossPunch,1,false,global.audio);
 	var nearest = instance_nearest(x-64,y,obj_Tower_Parent)
 	path_speed = 0;
 	sprite_index = spr_ZombieBossPunch;
@@ -32,6 +31,8 @@ punch = function()
 		{
 			instance_destroy(nearest)
 		}
+		
+		audio_play_sound(snd_ZombieBossPunch,1,false,global.audio);
 		path_speed = 5;
 		sprite_index = spr_ZombieBossMove;
 	}
