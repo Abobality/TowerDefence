@@ -24,13 +24,10 @@ shot = function()
 	image_yscale = 0.9;
 	if lvl > 4 and barrage = 3
 	{
-		instance_create_layer(x+16,y,"Instances",obj_Pistol_Bullet,
+		instance_create_layer(x+16,y,"Instances",obj_Rocket_Bullet,
 		{
-			drawColour: c_yellow,
 			damage: damage,
-			bulletSpeed: 3,
-			image_xscale: 2,
-			image_yscale: 2,
+			bulletSpeed: 3
 		})
 	}else{
 		instance_create_layer(x+16,y,"Instances",obj_Pistol_Bullet,

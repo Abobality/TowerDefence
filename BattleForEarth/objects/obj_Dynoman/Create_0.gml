@@ -5,7 +5,7 @@ barrage = 0;
 upgrade = false;
 cost = 300;
 lvl = 1;
-damage = 25;
+damage = 0;
 name = "Dynoman"
 invisDetection = false;
 depth = -y
@@ -21,12 +21,35 @@ shot = function()
 {
 	image_xscale = 1.1;
 	image_yscale = 0.9;
-	instance_create_layer(x+80,y-8,"Instances",obj_Shot_Gun_Shot,
+	
+	var object = obj_Grenade_lvl1
+	
+	switch lvl
 	{
-		drawColour: c_yellow,
+		case 1:
+			object = obj_Grenade_lvl1
+			break;
+			
+		case 2:
+			object = obj_Grenade_lvl1
+			break;
+			
+		case 3:
+			object = obj_Grenade_lvl2
+			break;
+			
+		case 4:
+			object = obj_Grenade_lvl2
+			break;
+			
+		case 5:
+			object = obj_Grenade_lvl3
+			break;
+	}
+	instance_create_layer(x+80,y-8,"Instances",object,
+	{
 		damage: damage,
-		image_xscale: 3,
-		image_yscale: 3
+		bulletSpeed:4
 	})
 	alarm[1] = 5;
 }

@@ -1,7 +1,4 @@
-if other.id != obj_Explosion_Shot
-{
-	other.bulletPersistent = 0
-}
+other.bulletPersistent -= 20
 
 if !array_contains(damaged,other.id)
 {

@@ -24,7 +24,6 @@ shot = function()
 	image_yscale = 0.9;
 	instance_create_layer(x+80,y-8,"Instances",obj_Shot_Gun_Shot,
 	{
-		drawColour: c_yellow,
 		damage: damage,
 	})
 	alarm[1] = 5;

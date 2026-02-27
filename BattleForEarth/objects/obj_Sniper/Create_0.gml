@@ -25,7 +25,6 @@ shot = function()
 	image_yscale = 0.9;
 	instance_create_layer(x+16,y,"Instances",obj_Sniper_Bullet,
 	{
-		drawColour: c_yellow,
 		damage: damage,
 		bulletSpeed: 15
 	})

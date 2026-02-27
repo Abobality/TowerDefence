@@ -24,7 +24,6 @@ shot = function()
 	audio_play_sound(snd_freeze,1,false,global.audio);
 	instance_create_layer(x+16,y,"Instances",obj_Cryo_Bullet,
 	{
-		drawColour: c_aqua,
 		damage: damage,
 		bulletSpeed: 5
 	})
