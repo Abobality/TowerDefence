@@ -21,5 +21,9 @@ if keyboard_check_pressed(ord("C"))
 }
 else if keyboard_check_pressed(ord("E"))
 {
-	room_goto(rm_Choose_menu);
+	instance_create_depth(0,0,-100,obj_Fade_In,
+	{
+		depth: -10000,
+		room_target: rm_Main_Menu
+	});
 }

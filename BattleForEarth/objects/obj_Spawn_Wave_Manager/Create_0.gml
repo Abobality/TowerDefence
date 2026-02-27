@@ -32,7 +32,16 @@ createZombie = function()
 					self.support_function()
 				}
 			}
-			waiting();
+			if global.autoSkip != true
+			{
+				waiting();
+			}else{
+				if (wave mod 15 == 0) and global.shop != true
+				{
+					instance_create_depth(room_width/2,room_height/2,-700,obj_Joker_Shop)
+				}
+				alarm[0] = 300
+			}
 		}
 	}else if wave == array_length(waves) and instance_number(obj_Parent_Zombie) <= 0{
 		instance_create_layer(0,0,"UI",obj_Win_Manager)	

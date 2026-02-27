@@ -78,6 +78,7 @@
     {"id":{"name":"obj_Miner","path":"objects/obj_Miner/obj_Miner.yy",},},
     {"id":{"name":"obj_Minigunner","path":"objects/obj_Minigunner/obj_Minigunner.yy",},},
     {"id":{"name":"obj_Parent_Zombie","path":"objects/obj_Parent_Zombie/obj_Parent_Zombie.yy",},},
+    {"id":{"name":"obj_Pause_Manager","path":"objects/obj_Pause_Manager/obj_Pause_Manager.yy",},},
     {"id":{"name":"obj_Pause","path":"objects/obj_Pause/obj_Pause.yy",},},
     {"id":{"name":"obj_Pistol_Bullet","path":"objects/obj_Pistol_Bullet/obj_Pistol_Bullet.yy",},},
     {"id":{"name":"obj_Policeman","path":"objects/obj_Policeman/obj_Policeman.yy",},},
