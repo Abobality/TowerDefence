@@ -54,19 +54,11 @@ lvlUp = function()
 
 punch = function()
 {
-	var array = obj_bullet_pool.bullet_BatBasic_pool[0]
-	
-	if lvl >= 4
-	{
-		array = obj_bullet_pool.bullet_BatElectro_pool[0]
-	}
 	audio_play_sound(snd_police_punch,1,false,global.audio);
-	array[0].x = x
-	array[0].y = y
-	array[0].active = true
-	array[0].visible = true
-	array[0].damage = damage
-	array[0].move()
-	array_delete(array,0,1)
+	obj_bullet_pool.bullet_BatBasic_pool[0].x = x+64
+	obj_bullet_pool.bullet_BatBasic_pool[0].y = y
+	obj_bullet_pool.bullet_BatBasic_pool[0].active = true
+	obj_bullet_pool.bullet_BatBasic_pool[0].damage = damage
+	array_delete(obj_bullet_pool.bullet_BatBasic_pool,0,1)
 	alarm[1] = 5;
 }

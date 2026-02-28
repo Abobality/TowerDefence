@@ -1,6 +1,6 @@
-maxHealth = 1500 * global.Multiple
+maxHealth = 700 * global.Multiple
 isVisible = false;
-healthPoints = 1500 * global.Multiple
+healthPoints = 700 * global.Multiple
 resistant = 0
 damaged = [];
 

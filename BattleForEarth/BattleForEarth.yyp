@@ -75,6 +75,7 @@
     {"id":{"name":"obj_Joker_Parent","path":"objects/obj_Joker_Parent/obj_Joker_Parent.yy",},},
     {"id":{"name":"obj_Joker_Shop","path":"objects/obj_Joker_Shop/obj_Joker_Shop.yy",},},
     {"id":{"name":"obj_Level_Setuper","path":"objects/obj_Level_Setuper/obj_Level_Setuper.yy",},},
+    {"id":{"name":"obj_Logo","path":"objects/obj_Logo/obj_Logo.yy",},},
     {"id":{"name":"obj_Lose_Manager","path":"objects/obj_Lose_Manager/obj_Lose_Manager.yy",},},
     {"id":{"name":"obj_Miner","path":"objects/obj_Miner/obj_Miner.yy",},},
     {"id":{"name":"obj_Minigunner","path":"objects/obj_Minigunner/obj_Minigunner.yy",},},
@@ -107,6 +108,7 @@
     {"id":{"name":"pth_level_1","path":"paths/pth_level_1/pth_level_1.yy",},},
     {"id":{"name":"rm_Choose_menu","path":"rooms/rm_Choose_menu/rm_Choose_menu.yy",},},
     {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"id":{"name":"rm_Logo","path":"rooms/rm_Logo/rm_Logo.yy",},},
     {"id":{"name":"rm_Main_Menu","path":"rooms/rm_Main_Menu/rm_Main_Menu.yy",},},
     {"id":{"name":"rm_Settings","path":"rooms/rm_Settings/rm_Settings.yy",},},
     {"id":{"name":"scr_Bullet_Abilities","path":"scripts/scr_Bullet_Abilities/scr_Bullet_Abilities.yy",},},
@@ -187,6 +189,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_Logo","path":"rooms/rm_Logo/rm_Logo.yy",},},
     {"roomId":{"name":"rm_Main_Menu","path":"rooms/rm_Main_Menu/rm_Main_Menu.yy",},},
     {"roomId":{"name":"rm_Choose_menu","path":"rooms/rm_Choose_menu/rm_Choose_menu.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
