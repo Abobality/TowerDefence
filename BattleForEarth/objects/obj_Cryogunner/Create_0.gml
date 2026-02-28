@@ -22,11 +22,15 @@ shot = function()
 	image_xscale = 1.1;
 	image_yscale = 0.9;
 	audio_play_sound(snd_freeze,1,false,global.audio);
-	instance_create_layer(x+16,y,"Instances",obj_Cryo_Bullet,
-	{
-		damage: damage,
-		bulletSpeed: 5
-	})
+	obj_bullet_pool.bullet_cryo_pool[0].x = x
+	obj_bullet_pool.bullet_cryo_pool[0].y = y
+	obj_bullet_pool.bullet_cryo_pool[0].active = true
+	obj_bullet_pool.bullet_cryo_pool[0].visible = true
+	obj_bullet_pool.bullet_cryo_pool[0].bulletSpeed = 5
+	obj_bullet_pool.bullet_cryo_pool[0].damage = damage
+	obj_bullet_pool.bullet_cryo_pool[0].bulletPersistent = 20
+	obj_bullet_pool.bullet_cryo_pool[0].move()
+	array_delete(obj_bullet_pool.bullet_cryo_pool,0,1)
 	alarm[1] = 5;
 }
 
@@ -44,10 +48,7 @@ lvlUp = function()
 			{
 				damage*=2
 			}
-			if lvl < 4
-			{
-				image_index++;
-			}
+			image_index++
 		}
 	}else{ 
 		instance_create_layer(room_width/2,room_height-32,"Instances",obj_Pop_Up,

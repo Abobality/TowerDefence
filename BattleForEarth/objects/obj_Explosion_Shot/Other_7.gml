@@ -5,6 +5,7 @@ if !array_contains(obj_bullet_pool.bullet_Explosion_pool,id)
 	bulletSpeed = 0
 	active = false
 	visible = false
+	image_speed = 0
 	bulletPersistent = 1;
 	array_push(obj_bullet_pool.bullet_Explosion_pool,id)
 }
