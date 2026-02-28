@@ -42,6 +42,9 @@
     "name":"spr_Bullet_Grenade",
     "path":"sprites/spr_Bullet_Grenade/spr_Bullet_Grenade.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_Bullet_Grenade",
+    "path":"sprites/spr_Bullet_Grenade/spr_Bullet_Grenade.yy",
+  },
   "visible":true,
 }
