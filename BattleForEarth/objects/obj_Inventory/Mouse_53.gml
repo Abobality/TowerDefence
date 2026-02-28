@@ -1,4 +1,4 @@
-if placeEnable = true and mouse_y > 102 and mouse_x < 816 
+if placeEnable = true and mouse_y > 102 and mouse_x < 816 and instance_number(obj_Tower_Parent) <= 30
 {
 	switch placeSlot 
 	{

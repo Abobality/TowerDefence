@@ -1,1 +1,3 @@
-bulletPersistent = 1000;
+active = false
+bulletPersistent = 100;
+visible = false

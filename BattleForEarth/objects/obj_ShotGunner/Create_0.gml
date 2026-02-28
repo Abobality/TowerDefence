@@ -22,10 +22,12 @@ shot = function()
 	audio_play_sound(snd_shotgun_shot,1,false,global.audio);
 	image_xscale = 1.1;
 	image_yscale = 0.9;
-	instance_create_layer(x+80,y-8,"Instances",obj_Shot_Gun_Shot,
-	{
-		damage: damage,
-	})
+	obj_bullet_pool.bullet_Shotgun_pool[0].x = x
+	obj_bullet_pool.bullet_Shotgun_pool[0].y = y
+	obj_bullet_pool.bullet_Shotgun_pool[0].active = true
+	obj_bullet_pool.bullet_Shotgun_pool[0].visible = true
+	obj_bullet_pool.bullet_Shotgun_pool[0].damage = damage
+	array_delete(obj_bullet_pool.bullet_Shotgun_pool,0,1)
 	alarm[1] = 5;
 }
 

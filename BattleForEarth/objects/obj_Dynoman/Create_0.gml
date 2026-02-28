@@ -22,35 +22,38 @@ shot = function()
 	image_xscale = 1.1;
 	image_yscale = 0.9;
 	
-	var object = obj_Grenade_lvl1
+	var array = obj_bullet_pool.bullet_Grenadelvl1_pool[0]
 	
 	switch lvl
 	{
 		case 1:
-			object = obj_Grenade_lvl1
+			array = obj_bullet_pool.bullet_Grenadelvl1_pool[0]
 			break;
 			
 		case 2:
-			object = obj_Grenade_lvl1
+			array = obj_bullet_pool.bullet_Grenadelvl2_pool[0]
 			break;
 			
 		case 3:
-			object = obj_Grenade_lvl2
+			array = obj_bullet_pool.bullet_Grenadelvl2_pool[0]
 			break;
 			
 		case 4:
-			object = obj_Grenade_lvl2
+			array = obj_bullet_pool.bullet_Grenadelvl3_pool[0]
 			break;
 			
 		case 5:
-			object = obj_Grenade_lvl3
+			array = obj_bullet_pool.bullet_Grenadelvl3_pool[0]
 			break;
 	}
-	instance_create_layer(x+80,y-8,"Instances",object,
-	{
-		damage: damage,
-		bulletSpeed:4
-	})
+	array[0].x = x
+	array[0].y = y
+	array[0].active = true
+	array[0].visible = true
+	array[0].bulletSpeed = 5
+	array[0].damage = damage
+	array[0].move()
+	array_delete(array,0,1)
 	alarm[1] = 5;
 }
 

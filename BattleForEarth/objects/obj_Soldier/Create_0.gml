@@ -24,19 +24,24 @@ shot = function()
 	image_yscale = 0.9;
 	if lvl > 4 and barrage = 3
 	{
-		instance_create_layer(x+16,y,"Instances",obj_Rocket_Bullet,
-		{
-			damage: damage,
-			bulletSpeed: 3
-		})
+		obj_bullet_pool.bullet_Rocket_pool[0].x = x
+		obj_bullet_pool.bullet_Rocket_pool[0].y = y
+		obj_bullet_pool.bullet_Rocket_pool[0].active = true
+		obj_bullet_pool.bullet_Rocket_pool[0].visible = true
+		obj_bullet_pool.bullet_Rocket_pool[0].bulletSpeed = 3
+		obj_bullet_pool.bullet_Rocket_pool[0].damage = 0
+		obj_bullet_pool.bullet_Rocket_pool[0].move()
+		array_delete(obj_bullet_pool.bullet_Rocket_pool,0,1)
 	}else{
-		instance_create_layer(x+16,y,"Instances",obj_Pistol_Bullet,
-		{
-			drawColour: c_yellow,
-			damage: damage,
-			bulletSpeed: 5
-		})
-	}
+		obj_bullet_pool.bullet_pistol_pool[0].x = x
+		obj_bullet_pool.bullet_pistol_pool[0].y = y
+		obj_bullet_pool.bullet_pistol_pool[0].active = true
+		obj_bullet_pool.bullet_pistol_pool[0].visible = true
+		obj_bullet_pool.bullet_pistol_pool[0].bulletSpeed = 5
+		obj_bullet_pool.bullet_pistol_pool[0].damage = damage
+		obj_bullet_pool.bullet_pistol_pool[0].move()
+		array_delete(obj_bullet_pool.bullet_pistol_pool,0,1)
+		}
 	alarm[1] = 5;
 }
 
