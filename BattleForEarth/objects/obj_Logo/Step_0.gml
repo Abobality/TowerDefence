@@ -1,6 +1,0 @@
-image_alpha+= 0.01
-
-if image_alpha = 1
-{
-	room_goto(rm_Main_Menu)
-}

@@ -1,1 +1,0 @@
-x = mouse_x

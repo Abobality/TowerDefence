@@ -1,1 +1,0 @@
-global.enemyOnWave = 0;

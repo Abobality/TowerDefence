@@ -1,1 +1,0 @@
-cryoBullet(other)
