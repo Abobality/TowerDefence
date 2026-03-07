@@ -10,9 +10,11 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"towers","folderPath":"folders/towers.yy","name":"towers","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Bullets","folderPath":"folders/towers/Bullets.yy","name":"Bullets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"systems","folderPath":"folders/systems.yy","name":"systems","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"towers","folderPath":"folders/towers.yy","name":"towers","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
@@ -27,6 +29,11 @@
   },
   "name":"BattleForEarth",
   "resources":[
+    {"id":{"name":"obj_Bullet_Manager","path":"objects/obj_Bullet_Manager/obj_Bullet_Manager.yy",},},
+    {"id":{"name":"obj_Bullet_Parent","path":"objects/obj_Bullet_Parent/obj_Bullet_Parent.yy",},},
+    {"id":{"name":"obj_Debugger","path":"objects/obj_Debugger/obj_Debugger.yy",},},
+    {"id":{"name":"obj_Pistol_Bullet","path":"objects/obj_Pistol_Bullet/obj_Pistol_Bullet.yy",},},
+    {"id":{"name":"obj_Pistol_Object_Pool","path":"objects/obj_Pistol_Object_Pool/obj_Pistol_Object_Pool.yy",},},
     {"id":{"name":"obj_Tower_Parent","path":"objects/obj_Tower_Parent/obj_Tower_Parent.yy",},},
     {"id":{"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},},
     {"id":{"name":"snd_button","path":"sounds/snd_button/snd_button.yy",},},

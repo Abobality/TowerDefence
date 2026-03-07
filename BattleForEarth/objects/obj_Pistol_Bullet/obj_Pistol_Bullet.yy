@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Tower_Parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_Pistol_Bullet",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Tower_Parent",
+  "name":"obj_Pistol_Bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"towers",
-    "path":"folders/towers.yy",
+    "name":"Bullets",
+    "path":"folders/towers/Bullets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Bullet_Parent",
+    "path":"objects/obj_Bullet_Parent/obj_Bullet_Parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Scout",
-    "path":"sprites/spr_Scout/spr_Scout.yy",
+    "name":"spr_Bullet_Pistol",
+    "path":"sprites/spr_Bullet_Pistol/spr_Bullet_Pistol.yy",
   },
   "spriteMaskId":null,
   "visible":true,

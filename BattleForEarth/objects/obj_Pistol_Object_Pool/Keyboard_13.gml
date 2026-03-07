@@ -1,0 +1,1 @@
+show_debug_message(array_length(global.PistolBulletPool))
