@@ -37,6 +37,8 @@
     {"id":{"name":"obj_Pistol_Object_Pool","path":"objects/obj_Pistol_Object_Pool/obj_Pistol_Object_Pool.yy",},},
     {"id":{"name":"obj_Tower_Parent","path":"objects/obj_Tower_Parent/obj_Tower_Parent.yy",},},
     {"id":{"name":"obj_Zombie_Parent","path":"objects/obj_Zombie_Parent/obj_Zombie_Parent.yy",},},
+    {"id":{"name":"obj_Zombie_Pool","path":"objects/obj_Zombie_Pool/obj_Zombie_Pool.yy",},},
+    {"id":{"name":"obj_Zombie_Spawner","path":"objects/obj_Zombie_Spawner/obj_Zombie_Spawner.yy",},},
     {"id":{"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},},
     {"id":{"name":"snd_button","path":"sounds/snd_button/snd_button.yy",},},
     {"id":{"name":"snd_Card","path":"sounds/snd_Card/snd_Card.yy",},},

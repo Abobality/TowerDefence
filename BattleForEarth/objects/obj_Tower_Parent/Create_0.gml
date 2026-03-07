@@ -1,7 +1,7 @@
 image_speed = 0;
 
 reload = false
-cooldown = 60
+cooldown = 20
 hp = 4;
 upgradeCost = 2;
 

@@ -1,6 +1,7 @@
 bullethealth = 50;
 bulletSpeed = 4;
 bulletActive = true;
+damage = 1;
 
 move = function()
 {
