@@ -1,5 +1,7 @@
 image_speed = 0;
 
+reload = false
+cooldown = 60
 hp = 4;
 upgradeCost = 2;
 
@@ -24,4 +26,6 @@ shot = function()
 		image_yscale = 1;
 	}
 	call_later(10,time_source_units_frames,_callback,false)
+	reload = true
+	alarm[0] = cooldown
 }
