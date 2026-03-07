@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"towers","folderPath":"folders/towers.yy","name":"towers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -26,6 +27,8 @@
   },
   "name":"BattleForEarth",
   "resources":[
+    {"id":{"name":"obj_Tower_Parent","path":"objects/obj_Tower_Parent/obj_Tower_Parent.yy",},},
+    {"id":{"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},},
     {"id":{"name":"snd_button","path":"sounds/snd_button/snd_button.yy",},},
     {"id":{"name":"snd_Card","path":"sounds/snd_Card/snd_Card.yy",},},
     {"id":{"name":"snd_electro_joker","path":"sounds/snd_electro_joker/snd_electro_joker.yy",},},
@@ -61,6 +64,7 @@
     {"id":{"name":"spr_jokers_heaven_move","path":"sprites/spr_jokers_heaven_move/spr_jokers_heaven_move.yy",},},
     {"id":{"name":"spr_jokers_soldier_move","path":"sprites/spr_jokers_soldier_move/spr_jokers_soldier_move.yy",},},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
+    {"id":{"name":"spr_Map","path":"sprites/spr_Map/spr_Map.yy",},},
     {"id":{"name":"spr_Money_Icon","path":"sprites/spr_Money_Icon/spr_Money_Icon.yy",},},
     {"id":{"name":"spr_Null","path":"sprites/spr_Null/spr_Null.yy",},},
     {"id":{"name":"spr_policelvl1","path":"sprites/spr_policelvl1/spr_policelvl1.yy",},},
@@ -68,6 +72,7 @@
     {"id":{"name":"spr_policelvl3","path":"sprites/spr_policelvl3/spr_policelvl3.yy",},},
     {"id":{"name":"spr_policelvl4","path":"sprites/spr_policelvl4/spr_policelvl4.yy",},},
     {"id":{"name":"spr_policelvl5","path":"sprites/spr_policelvl5/spr_policelvl5.yy",},},
+    {"id":{"name":"spr_Scout","path":"sprites/spr_Scout/spr_Scout.yy",},},
     {"id":{"name":"spr_shotgun_shot","path":"sprites/spr_shotgun_shot/spr_shotgun_shot.yy",},},
     {"id":{"name":"spr_Soldier","path":"sprites/spr_Soldier/spr_Soldier.yy",},},
     {"id":{"name":"spr_Title","path":"sprites/spr_Title/spr_Title.yy",},},
@@ -82,7 +87,9 @@
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
-  "RoomOrderNodes":[],
+  "RoomOrderNodes":[
+    {"roomId":{"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},},
+  ],
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
