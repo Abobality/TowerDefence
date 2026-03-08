@@ -1,11 +1,12 @@
 zombieHealth = 3;
-zombieSpeed = 1;
+zombieSpeed = 0;
 image_xscale = -1;
+range = 16
 
-move = function()
+move = function(spd)
 {
-	image_speed = 1
-	move_towards_point(0,y,-1)
+	image_speed = spd
+	move_towards_point(0,y,spd)
 }
 
 poolPushing = function()
@@ -20,7 +21,7 @@ poolPushing = function()
 setInactive = function()
 {
 	zombieSpeed = 0;
-	move();
+	move(zombieSpeed);
 	visible = false;
 	x = -128;
 	y = -64;
@@ -31,12 +32,19 @@ setActive = function(Speed,healthZ,xpos,ypos)
 {
 	zombieHealth = healthZ;
 	zombieSpeed = Speed;
-	move();
+	move(zombieSpeed);
 	visible = true;
 	x = xpos;
 	y = ypos;
-	
 }
+
+punch = function()
+{
+	zombieSpeed = 0;
+	image_speed = 0;
+	move(zombieSpeed)
+}
+
 
 poolPushing()
 setInactive()

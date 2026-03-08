@@ -36,6 +36,7 @@
     {"id":{"name":"obj_Pistol_Bullet","path":"objects/obj_Pistol_Bullet/obj_Pistol_Bullet.yy",},},
     {"id":{"name":"obj_Pistol_Object_Pool","path":"objects/obj_Pistol_Object_Pool/obj_Pistol_Object_Pool.yy",},},
     {"id":{"name":"obj_Tower_Parent","path":"objects/obj_Tower_Parent/obj_Tower_Parent.yy",},},
+    {"id":{"name":"obj_Zombie_Manager","path":"objects/obj_Zombie_Manager/obj_Zombie_Manager.yy",},},
     {"id":{"name":"obj_Zombie_Parent","path":"objects/obj_Zombie_Parent/obj_Zombie_Parent.yy",},},
     {"id":{"name":"obj_Zombie_Pool","path":"objects/obj_Zombie_Pool/obj_Zombie_Pool.yy",},},
     {"id":{"name":"obj_Zombie_Spawner","path":"objects/obj_Zombie_Spawner/obj_Zombie_Spawner.yy",},},
