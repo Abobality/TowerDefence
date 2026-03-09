@@ -1,1 +1,1 @@
-shot()
+show_debug_message(hp)
